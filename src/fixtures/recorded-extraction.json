@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "recordedAt": "2026-07-28T10:55:17.225Z",
+  "model": "gpt-5.6-terra",
+  "documents": [
+    "Certificate of Death.pdf",
+    "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+    "Appraisal - 1412 Bayberry Lane.pdf",
+    "Wells Fargo statement Jan 2026.pdf",
+    "Schwab brokerage statement.pdf",
+    "Pacific Mutual policy summary.pdf",
+    "IRS Account Transcript 2024.pdf",
+    "Wells Fargo wire advice 2024-09-12.pdf",
+    "Call transcript - Claire Hoyt 2026-02-11.txt"
+  ],
+  "candidates": [
+    {
+      "key": "decedent.full_name",
+      "label": "Decedent full legal name",
+      "value": "MARGARET ELLEN HOYT",
+      "document": "Certificate of Death.pdf",
+      "quote": "Name of decedent: MARGARET ELLEN HOYT.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "decedent.date_of_death",
+      "label": "Date of death",
+      "value": "2026-01-04",
+      "document": "Certificate of Death.pdf",
+      "quote": "The date of death was 04 January 2026 at 06:12 hours.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "decedent.place_of_death",
+      "label": "Place of death",
+      "value": "Mills-Peninsula Medical Center, Burlingame, California",
+      "document": "Certificate of Death.pdf",
+      "quote": "Place of death: Mills-Peninsula Medical Center, Burlingame, California.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "estate.county",
+      "label": "County of residence",
+      "value": "San Mateo",
+      "document": "Certificate of Death.pdf",
+      "quote": "Usual residence: 1412 Bayberry Lane, San Mateo, California 94402.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.residence.address",
+      "label": "Usual residence address",
+      "value": "1412 Bayberry Lane, San Mateo, California 94402",
+      "document": "Certificate of Death.pdf",
+      "quote": "Usual residence: 1412 Bayberry Lane, San Mateo, California 94402.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "decedent.full_name",
+      "label": "Decedent full legal name",
+      "value": "Margaret Ellen Hoyt",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "I, Margaret Ellen Hoyt, a resident of the County of San Mateo, State of\nCalifornia, being of sound mind, declare this to be my Last Will and Testament",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "decedent.has_surviving_spouse",
+      "label": "Decedent has surviving spouse",
+      "value": false,
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "ARTICLE ONE. I am a widow.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "estate.county",
+      "label": "County of residence",
+      "value": "San Mateo",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "I, Margaret Ellen Hoyt, a resident of the County of San Mateo, State of\nCalifornia, being of sound mind, declare this to be my Last Will and Testament",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "estate.petitioner_name",
+      "label": "Nominated executor",
+      "value": "Claire Hoyt",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "ARTICLE TWO. I nominate my daughter Claire Hoyt as Executor of this Will, to\nserve without bond.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.residence.address",
+      "label": "Residence address",
+      "value": "1412 Bayberry Lane, San Mateo, California",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "My residence at 1412 Bayberry Lane, San Mateo, California has\nbeen my primary residence continuously since 1978",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.residence.is_primary_residence",
+      "label": "Residence is primary residence",
+      "value": true,
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "My residence at 1412 Bayberry Lane, San Mateo, California has\nbeen my primary residence continuously since 1978",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.institution",
+      "label": "Bank account institution",
+      "value": "Wells Fargo Bank",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "ARTICLE FOUR. I give the remainder of my property, including my accounts at\nWells Fargo Bank and Charles Schwab, to my daughter Claire Hoyt.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.brokerage.institution",
+      "label": "Brokerage account institution",
+      "value": "Charles Schwab",
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "ARTICLE FOUR. I give the remainder of my property, including my accounts at\nWells Fargo Bank and Charles Schwab, to my daughter Claire Hoyt.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.vehicle.registered_vehicle",
+      "label": "2019 Honda CR-V registered vehicle",
+      "value": true,
+      "document": "Last Will and Testament of Margaret Ellen Hoyt.pdf",
+      "quote": "ARTICLE FIVE. My 2019 Honda CR-V shall pass to my daughter Claire Hoyt.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.residence.address",
+      "label": "Residence address",
+      "value": "1412 Bayberry Lane, San Mateo, California 94402",
+      "document": "Appraisal - 1412 Bayberry Lane.pdf",
+      "quote": "Subject property: 1412 Bayberry Lane, San Mateo, California 94402.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.residence.value",
+      "label": "Residence, 1412 Bayberry Lane",
+      "value": 740000,
+      "unit": "USD",
+      "asOf": "2026-01-04",
+      "document": "Appraisal - 1412 Bayberry Lane.pdf",
+      "quote": "opinion of market value as of the effective date is $740,000.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.value",
+      "label": "Wells Fargo checking account",
+      "value": 18400,
+      "unit": "USD",
+      "asOf": "2026-01-04",
+      "document": "Wells Fargo statement Jan 2026.pdf",
+      "quote": "The closing balance as of 04 January 2026 was $18,400.00.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.institution",
+      "label": "Wells Fargo checking account",
+      "value": "WELLS FARGO BANK, N.A.",
+      "document": "Wells Fargo statement Jan 2026.pdf",
+      "quote": "WELLS FARGO BANK, N.A. — PERSONAL CHECKING STATEMENT",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.identifier",
+      "label": "Wells Fargo checking account",
+      "value": 4471,
+      "document": "Wells Fargo statement Jan 2026.pdf",
+      "quote": "Account number ending 4471.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.brokerage.institution",
+      "label": "Brokerage institution",
+      "value": "CHARLES SCHWAB & CO., INC.",
+      "document": "Schwab brokerage statement.pdf",
+      "quote": "CHARLES SCHWAB & CO., INC. — BROKERAGE ACCOUNT STATEMENT",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.brokerage.identifier",
+      "label": "Brokerage account ending",
+      "value": 8802,
+      "document": "Schwab brokerage statement.pdf",
+      "quote": "Registration: MARGARET E HOYT, individual account, ending 8802.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.brokerage.value",
+      "label": "Brokerage account value",
+      "value": 121000,
+      "unit": "USD",
+      "asOf": "2026-01-04",
+      "document": "Schwab brokerage statement.pdf",
+      "quote": "Total account value on the valuation date was $121,000.00.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.brokerage.has_named_beneficiary",
+      "label": "Brokerage account transfer-on-death beneficiary designation",
+      "value": false,
+      "document": "Schwab brokerage statement.pdf",
+      "quote": "This account has no transfer-on-death beneficiary designation on file.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.life_policy.value",
+      "label": "Pacific Mutual life policy face amount",
+      "value": 180000,
+      "unit": "USD",
+      "document": "Pacific Mutual policy summary.pdf",
+      "quote": "Face amount: $180,000.00.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.life_policy.has_named_beneficiary",
+      "label": "Pacific Mutual life policy named beneficiary",
+      "value": true,
+      "document": "Pacific Mutual policy summary.pdf",
+      "quote": "The designated primary beneficiary of record is Claire Hoyt, daughter.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.life_policy.institution",
+      "label": "Pacific Mutual life policy insurer",
+      "value": "Pacific Mutual Life",
+      "document": "Pacific Mutual policy summary.pdf",
+      "quote": "PACIFIC MUTUAL LIFE — POLICY SUMMARY",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.life_policy.identifier",
+      "label": "Pacific Mutual life policy number",
+      "value": "PM-77451-C",
+      "document": "Pacific Mutual policy summary.pdf",
+      "quote": "Policy number PM-77451-C.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "tax.schedule_b.foreign_account",
+      "label": "Foreign financial account",
+      "value": true,
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "Line 7a: At any time during 2024, did you have a financial interest in or\nsignature authority over a financial account located in a foreign country?\nANSWER: YES.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "banking.international_wire.country",
+      "label": "Foreign country",
+      "value": "SWITZERLAND",
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "Line 7b: Name of foreign country: SWITZERLAND.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "tax.form_1116.filed",
+      "label": "Form 1116 filed",
+      "value": true,
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "FORMS AND SCHEDULES FILED WITH THIS RETURN\n  Schedule B    Interest and Ordinary Dividends\n  Form 1116     Foreign Tax Credit",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "tax.form_5471.filed",
+      "label": "Form 5471 filed",
+      "value": true,
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "FORMS AND SCHEDULES FILED WITH THIS RETURN\n  Schedule B    Interest and Ordinary Dividends\n  Form 1116     Foreign Tax Credit\n  Form 5471     Information Return of U.S. Persons With Respect\n                To Certain Foreign Corporations",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "tax.form_8938.filed",
+      "label": "Form 8938 filed",
+      "value": true,
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "FORMS AND SCHEDULES FILED WITH THIS RETURN\n  Schedule B    Interest and Ordinary Dividends\n  Form 1116     Foreign Tax Credit\n  Form 5471     Information Return of U.S. Persons With Respect\n                To Certain Foreign Corporations\n  Form 8938     Statement of Specified Foreign Financial Assets",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "advisers.professional.name",
+      "label": "Tax preparer",
+      "value": "Halloran & Reyes CPAs",
+      "document": "IRS Account Transcript 2024.pdf",
+      "quote": "PREPARER: Halloran & Reyes CPAs, San Mateo, California.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.institution",
+      "label": "Originator bank",
+      "value": "WELLS FARGO BANK, N.A.",
+      "document": "Wells Fargo wire advice 2024-09-12.pdf",
+      "quote": "WELLS FARGO BANK, N.A. — OUTGOING WIRE TRANSFER ADVICE",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.checking.identifier",
+      "label": "Originator account ending",
+      "value": 4471,
+      "document": "Wells Fargo wire advice 2024-09-12.pdf",
+      "quote": "Originator: MARGARET E HOYT, account ending 4471.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "banking.international_wire.beneficiary_account",
+      "label": "Beneficiary account",
+      "value": "CH93 0076 2011 6238 5295 7",
+      "document": "Wells Fargo wire advice 2024-09-12.pdf",
+      "quote": "Beneficiary: M E HOYT. Beneficiary account: CH93 0076 2011 6238 5295 7.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "banking.international_wire.country",
+      "label": "Beneficiary bank country",
+      "value": "SWITZERLAND",
+      "document": "Wells Fargo wire advice 2024-09-12.pdf",
+      "quote": "Beneficiary bank: BANQUE PICTET & CIE SA, GENEVA, SWITZERLAND.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "estate.petitioner_name",
+      "label": "Executor",
+      "value": "Claire Hoyt",
+      "document": "Call transcript - Claire Hoyt 2026-02-11.txt",
+      "quote": "Participants: Claire Hoyt (executor), settlement specialist.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.vehicle.registered_vehicle",
+      "label": "2019 Honda CR-V",
+      "value": true,
+      "document": "Call transcript - Claire Hoyt 2026-02-11.txt",
+      "quote": "CLAIRE: Yes, the Honda is in the garage. It's a 2019 CR-V.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.vehicle.value",
+      "label": "2019 Honda CR-V",
+      "value": 16500,
+      "unit": "USD",
+      "document": "Call transcript - Claire Hoyt 2026-02-11.txt",
+      "quote": "CLAIRE: I looked it up, the Blue Book on it was about sixteen and a half\nthousand. Call it $16,500.",
+      "extractedBy": "gpt-5.6-terra"
+    },
+    {
+      "key": "asset.jewellery.value",
+      "label": "Jewellery collection",
+      "value": 9200,
+      "unit": "USD",
+      "document": "Call transcript - Claire Hoyt 2026-02-11.txt",
+      "quote": "CLAIRE: The jeweller in Burlingame valued the whole collection at $9,200.",
+      "extractedBy": "gpt-5.6-terra"
+    }
+  ],
+  "errorCount": 0,
+  "inputTokens": 12471,
+  "outputTokens": 3651
+}

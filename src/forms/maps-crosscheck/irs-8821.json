@@ -1,0 +1,104 @@
+{
+ "form": "irs-8821",
+ "sourceFile": "Form 8821 Jan 2021.pdf",
+ "discoveredBy": "claude-sonnet-5",
+ "discoveredAt": "2026-07-28T14:04:11.861Z",
+ "entries": [
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_20[0]",
+   "target": "taxMatters.authorizationRows.0.typeOfTaxInformation",
+   "labelQuote": "Employment, Payroll, Excise, Estate, Gift, (1040, Civil Penalty, Sec. 4980H Payments, etc.)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_21[0]",
+   "target": "taxMatters.authorizationRows.0.taxFormNumber",
+   "labelQuote": "Estate, Gift, (1040, 941, 720, etc.) Payments, etc.)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_22[0]",
+   "target": "taxMatters.authorizationRows.0.yearsOrPeriods",
+   "labelQuote": "etc.)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_32[0]",
+   "target": "form8821.signature.printName",
+   "labelQuote": "Print Name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_33[0]",
+   "target": "form8821.signature.title",
+   "labelQuote": "Title (if applicable)",
+   "page": 1,
+   "type": "/Tx"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "topmostSubform[0].Page1[0].c1_8[0]",
+   "note": "Checkbox for designee's updated contact info (address/phone/fax); no corresponding field in the record."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_9[0]",
+   "note": "Checkbox for a second designee's updated contact info; no corresponding field in the record."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_10[0]",
+   "note": "Authorization checkbox for third-party electronic access to IRS records; no matching record field, requires taxpayer judgment."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_24[0]",
+   "note": "Second row of Line 3 table; record schema only provides authorizationRows.0, no index for a second row, and no printed text was shown for this widget."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_25[0]",
+   "note": "Second row of Line 3 table; record schema only provides authorizationRows.0, no index for a second row, and no printed text was shown for this widget."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_26[0]",
+   "note": "Second row of Line 3 table; record schema only provides authorizationRows.0, no index for a second row, and no printed text was shown for this widget."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_27[0]",
+   "note": "Second row of Line 3 table; record schema only provides authorizationRows.0, no index for a second row, and no printed text was shown for this widget."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_28[0]",
+   "note": "Third row of Line 3 table; record schema only provides authorizationRows.0, no index for a third row."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_29[0]",
+   "note": "Third row of Line 3 table; record schema only provides authorizationRows.0, no index for a third row."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_30[0]",
+   "note": "Third row of Line 3 table; record schema only provides authorizationRows.0, no index for a third row."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_31[0]",
+   "note": "Third row of Line 3 table; record schema only provides authorizationRows.0, no index for a third row."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_11[0]",
+   "note": "Line 4 \"Specific use not recorded on CAF\" checkbox; no corresponding boolean field in the record, requires judgment."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_12[0]",
+   "note": "Checkbox text is fragmentary/ambiguous; cannot confidently identify which authorization it controls or map it to a record field."
+  }
+ ],
+ "rejected": [
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_23[0]",
+   "verdict": "unsupported_label",
+   "note": "No label cited for topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_23[0]. A mapping must point at printed text."
+  }
+ ]
+}

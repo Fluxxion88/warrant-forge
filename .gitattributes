@@ -1,0 +1,22 @@
+# Normalise text to LF in the repository, checked out native on each platform.
+* text=auto eol=lf
+
+# Binaries must never have line endings rewritten. Windows git defaults to
+# core.autocrlf=true; without these rules it would mangle bytes inside the
+# Office test fixtures (which are zip archives) and the app icons, producing
+# test failures that look nothing like the actual cause.
+*.pdf   binary
+*.xlsx  binary
+*.xlsm  binary
+*.xls   binary
+*.docx  binary
+*.pptx  binary
+*.png   binary
+*.ico   binary
+*.icns  binary
+*.db    binary
+*.bundle binary
+
+# Windows batch files need CRLF to run correctly.
+*.bat text eol=crlf
+*.cmd text eol=crlf

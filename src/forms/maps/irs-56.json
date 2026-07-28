@@ -1,0 +1,514 @@
+{
+ "form": "irs-56",
+ "sourceFile": "Form 56 June 2026.pdf",
+ "discoveredBy": "claude-opus-5",
+ "discoveredAt": "2026-07-28T12:12:22.919Z",
+ "entries": [
+  {
+   "field": "topmostSubform[0].Page1[0].f1_01[0]",
+   "target": "estateEntity.legalName",
+   "labelQuote": "for whom you’re acting (as shown on the tax return)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_02[0]",
+   "target": "estateEntity.identifyingNumber",
+   "labelQuote": "Identifying number",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_03[0]",
+   "target": "decedent.ssn",
+   "labelQuote": "Decedent’s social security no.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_04[0]",
+   "target": "estateEntity.mailingAddress.line1",
+   "labelQuote": "If you have a P.O. box, see instructions.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_06[0]",
+   "target": "estateEntity.mailingAddress.city",
+   "labelQuote": "City or town",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_07[0]",
+   "target": "estateEntity.mailingAddress.state",
+   "labelQuote": "State or province",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_09[0]",
+   "target": "estateEntity.mailingAddress.zip",
+   "labelQuote": "ZIP or foreign postal code",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_10[0]",
+   "target": "fiduciary.name.full",
+   "labelQuote": "Fiduciary’s name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_11[0]",
+   "target": "fiduciary.phone.number",
+   "labelQuote": "Telephone no.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_12[0]",
+   "target": "fiduciary.address.line1",
+   "labelQuote": "If you have a P.O. box, see instructions.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_13[0]",
+   "target": "fiduciary.address.line2",
+   "labelQuote": "Room or suite no.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_14[0]",
+   "target": "fiduciary.address.city",
+   "labelQuote": "City or town",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_15[0]",
+   "target": "fiduciary.address.state",
+   "labelQuote": "State or province",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_17[0]",
+   "target": "fiduciary.address.zip",
+   "labelQuote": "ZIP or foreign postal code",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[0]",
+   "target": "authority.basis",
+   "labelQuote": "Court appointment of testate estate (valid will exists)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "authority.basis == CourtAppointmentTestate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[1]",
+   "target": "authority.basis",
+   "labelQuote": "Court appointment of intestate estate (no valid will exists)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "authority.basis == CourtAppointmentIntestate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[2]",
+   "target": "authority.basis",
+   "labelQuote": "Court appointment as guardian or conservator",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/3",
+   "condition": "authority.basis == CourtAppointmentGuardianOrConservator"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[3]",
+   "target": "authority.basis",
+   "labelQuote": "Fiduciary of intestate estate",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/4",
+   "condition": "authority.basis == FiduciaryOfIntestateEstate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[4]",
+   "target": "authority.basis",
+   "labelQuote": "Valid trust instrument and amendments",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/5",
+   "condition": "authority.basis == ValidTrustInstrument"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[5]",
+   "target": "authority.basis",
+   "labelQuote": "Bankruptcy, appointment of receiver/fiduciary, or assignment for the benefit of creditors",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/6",
+   "condition": "authority.basis == Bankruptcy"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[6]",
+   "target": "authority.basis",
+   "labelQuote": "Other. Describe:",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/7",
+   "condition": "authority.basis == Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_19[0]",
+   "target": "decedent.dateOfDeath",
+   "labelQuote": "enter the date of death:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_20[0]",
+   "target": "authority.dateOfAppointment",
+   "labelQuote": "the date of appointment, taking office, or assignment or transfer of assets:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Income",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Income"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Gift",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Gift"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_5[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Estate",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Estate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Generation-skipping transfer",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes GenerationSkippingTransfer"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_7[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Employment",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Employment"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_8[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Excise",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Excise"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_9[0]",
+   "target": "taxMatters.taxTypes",
+   "labelQuote": "Other (describe):",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.taxTypes includes Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_10[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "706 series",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 706"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_11[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "709 series",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 709"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_12[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "940",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 940"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_13[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "941, 943, 944",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 941"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_14[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "1040 or 1040-SR",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 1040"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_15[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "1041",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 1041"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_16[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "1120",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes 1120"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_17[0]",
+   "target": "taxMatters.federalFormNumbers",
+   "labelQuote": "Other (list):",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.federalFormNumbers includes Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_18[0]",
+   "target": "taxMatters.specificPeriods",
+   "labelQuote": ". . . . . . . . . . . .",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "taxMatters.specificPeriods"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_24[0]",
+   "target": "taxMatters.specificPeriods",
+   "labelQuote": "checked line 5a, list the specific years or periods within your authority:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_1[0]",
+   "target": "form56.totalRevocation.revokeAllPriorNotices",
+   "labelQuote": "years or periods covered by this notice concerning fiduciary relationship . .",
+   "page": 2,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "form56.totalRevocation.revokeAllPriorNotices"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_3[0]",
+   "target": "form56.partialRevocation.revokeEarlierNotices",
+   "labelQuote": "this notice concerning fiduciary relationship . . . . . . .",
+   "page": 2,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "form56.partialRevocation.revokeEarlierNotices"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_4[0]",
+   "target": "form56.substituteFiduciary.hasSubstitute",
+   "labelQuote": "fiduciary and",
+   "page": 2,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "form56.substituteFiduciary.hasSubstitute"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_04[0]",
+   "target": "authority.proceeding.courtName",
+   "labelQuote": "identify the type of proceeding and name of agency)",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_06[0]",
+   "target": "authority.proceeding.courtAddress.line1",
+   "labelQuote": "Address of court (number and street)",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_07[0]",
+   "target": "authority.proceeding.courtRoomOrSuite",
+   "labelQuote": "Room or suite no.",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_08[0]",
+   "target": "authority.proceeding.docketNumber",
+   "labelQuote": "Docket number of proceeding",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_09[0]",
+   "target": "authority.proceeding.courtAddress.city",
+   "labelQuote": "City or town",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_10[0]",
+   "target": "authority.proceeding.courtAddress.state",
+   "labelQuote": "State",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_11[0]",
+   "target": "authority.proceeding.courtAddress.zip",
+   "labelQuote": "ZIP code",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_15[0]",
+   "target": "form56.signature.title",
+   "labelQuote": "Title, if applicable",
+   "page": 2,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_2[0]",
+   "target": "authority.assetsUnderCourtControl",
+   "labelQuote": "assets in the control",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "authority.assetsUnderCourtControl == true"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_2[1]",
+   "target": "authority.assetsUnderCourtControl",
+   "labelQuote": "assets in the control or",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "authority.assetsUnderCourtControl == false"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "topmostSubform[0].Page1[0].f1_05[0]",
+   "note": "No record path for a room/suite line on the estate entity mailing address; estateEntity.mailingAddress has no line2."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_08[0]",
+   "note": "Record carries no country field for the estate entity address."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_16[0]",
+   "note": "Record carries no country field for the fiduciary address."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_18[0]",
+   "note": "Free-text description of an \"Other\" authority basis; the record has no field carrying that narrative."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_21[0]",
+   "note": "The only adjacent printed text is the item letter \"d\", which names nothing. No record path can be assigned from the evidence shown."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_22[0]",
+   "note": "Free-text description for the \"Other\" tax type. The record carries only the taxTypes list, with no field for the description text."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_23[0]",
+   "note": "Free-text list of other federal form numbers. No record path holds this text; federalFormNumbers is the checkbox list only."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_2[0]",
+   "note": "Reason for termination, one-of-three. The record carries no reason-for-termination field, so this cannot be decided by a test; a human must tick it."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_2[1]",
+   "note": "Same one-of-three group as c2_2[0]; no record path for the reason, so left for a human."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].c2_2[2]",
+   "note": "Same one-of-three group; no record path for the reason."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_01[0]",
+   "note": "Free-text description accompanying the \"Other\" termination reason; the record has no field for it."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_02[0]",
+   "note": "Free-text detail for the partial revocation (to whom granted, date, address). No matching record path."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_03[0]",
+   "note": "Names and addresses of the new fiduciary(ies); the record has no path for substitute fiduciary details."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_05[0]",
+   "note": "Date the proceeding was initiated. authority.dateOfAppointment and authority.proceeding.lettersIssuedDate are different dates; mapping either would misstate the filing."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[0]",
+   "note": "a.m./p.m. selector for the hearing time. The record carries no hearing time, so it cannot be decided by a test."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_12[0]",
+   "note": "Date of the court hearing/other proceeding, distinct from any date the record holds."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].Time_ReadOrder[0].f2_13[0]",
+   "note": "Time of hearing; no record path."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].f2_14[0]",
+   "note": "No record path for the place of other proceedings."
+  },
+  {
+   "field": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[1]",
+   "note": "Paired with c2_5[0]; the record carries no hearing time."
+  }
+ ],
+ "rejected": []
+}

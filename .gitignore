@@ -1,0 +1,32 @@
+node_modules
+dist
+src-tauri/target
+.DS_Store
+
+# Local editor and agent state
+.claude/
+.vscode/
+
+# Anything that could carry a credential. Keys live in the OS config directory
+# and are held by Rust, never in the repo â€” but belt and braces.
+.env
+.env.*
+!.env.example
+providers.json
+anvil.json
+*.key
+*.pem
+
+# Generated
+src-tauri/gen/
+*.log
+
+# Track 3 sample estates and forms supplied by Alix are committed, with the
+# team's agreement. The records are synthetic — 900-block SSNs, never issued by
+# the SSA, with names, addresses and identifiers generated against the shape of
+# the originals.
+
+# Generated fills. Derived from the samples and reproducible from them, so there
+# is nothing here worth committing.
+out/
+

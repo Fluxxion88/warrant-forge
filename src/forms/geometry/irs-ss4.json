@@ -1,0 +1,1620 @@
+{
+ "form": "irs-ss4",
+ "sourceFile": "Form SS-4 Dec 2025.pdf",
+ "pages": 2,
+ "pageSizes": [
+  {
+   "page": 1,
+   "width": 611.98,
+   "height": 791.97
+  },
+  {
+   "page": 2,
+   "width": 612.0,
+   "height": 828.0
+  }
+ ],
+ "widgets": [
+  {
+   "name": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    440.2,
+    708.0,
+    576.0,
+    734.1
+   ],
+   "tip": null,
+   "states": null,
+   "left": "copy trusts, for latest individuals, your estates, and records. information. others.) churches,",
+   "right": "",
+   "above": "Number OMB No. 1545-0003",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_2[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    684.0,
+    576.0,
+    698.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "name of entity (or individual) for whom the EIN is being requested",
+   "below": "1) 3 Executor, administrator, trustee, “care of” name"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_3[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    660.0,
+    294.4,
+    674.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": ".ylraelc",
+   "right": "",
+   "above": "name of business (if different from name on line 1) 3 Executor,",
+   "below": "no. and street, or P.O. box) 5a Street"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_4[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    296.2,
+    660.0,
+    576.0,
+    674.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": ".ylraelc",
+   "right": "",
+   "above": "line 1) 3 Executor, administrator, trustee, “care of” name",
+   "below": "address (if different) (Don’t enter a P.O. box.)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Line4ReadOrder[0].f1_5[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    636.0,
+    294.4,
+    650.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "tnirp",
+   "right": "",
+   "above": "address (room, apt., suite no. and street, or P.O. box) 5a Street",
+   "below": "ZIP code (if foreign, see instructions) 5b City,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_7[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    296.2,
+    636.0,
+    576.0,
+    650.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "tnirp",
+   "right": "",
+   "above": "P.O. box) 5a Street address (if different) (Don’t enter a P.O. box.)",
+   "below": "state, and ZIP code (if foreign, see instructions)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Line4ReadOrder[0].f1_6[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    612.0,
+    294.4,
+    626.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "ro",
+   "right": "",
+   "above": "4b City, state, and ZIP code (if foreign, see instructions) 5b City,",
+   "below": "County and state where principal business is located"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_8[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    296.2,
+    612.0,
+    576.0,
+    626.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "ro",
+   "right": "",
+   "above": "instructions) 5b City, state, and ZIP code (if foreign, see instructions)",
+   "below": "located"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_9[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    588.0,
+    576.0,
+    602.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "epyT",
+   "right": "",
+   "above": "ro 6 County and state where principal business is located",
+   "below": "of responsible party 7b SSN, ITIN, or EIN"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_10[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    51.4,
+    564.0,
+    330.4,
+    578.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "epyT 7a Name of responsible party 7b SSN,",
+   "below": "a limited liability company (LLC) 8b If 8a"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_11[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    332.2,
+    564.0,
+    576.0,
+    578.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "7b SSN, ITIN, or EIN",
+   "below": "If 8a is “Yes,” enter the number of"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_12[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    496.8,
+    540.0,
+    576.0,
+    552.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": ". Yes No LLC members . . . . . . .",
+   "right": "",
+   "above": "number of",
+   "below": ". . . Yes No"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    255.2,
+    542.5,
+    263.2,
+    550.5
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "(or a foreign equivalent)? . . . . . . . .",
+   "right": "Yes No LLC members . . . . . . .",
+   "above": "company (LLC)",
+   "below": "United States? . . ."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    298.4,
+    542.5,
+    306.4,
+    550.5
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "a foreign equivalent)? . . . . . . . . Yes",
+   "right": "No LLC members . . . . . . .",
+   "above": "8b",
+   "below": "States? . . . . . ."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_2[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    492.8,
+    530.0,
+    500.8,
+    538.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": ". . . . . . . . . . . .",
+   "right": "Yes No",
+   "above": "number of . . .",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_2[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    543.2,
+    530.0,
+    551.2,
+    538.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": ". . . . . . . . . . . Yes",
+   "right": "No",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_13[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    158.4,
+    504.0,
+    259.2,
+    516.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Sole proprietor (SSN)",
+   "right": "Estate (SSN of decedent)",
+   "above": ". (check only one box). Caution: If 8a is “Yes,” see the",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_14[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    446.4,
+    504.0,
+    576.0,
+    516.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Sole proprietor (SSN) Estate (SSN of decedent)",
+   "right": "",
+   "above": ". . . . . . . Yes No box to check.",
+   "below": "administrator (TIN)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    506.0,
+    68.8,
+    514.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "",
+   "right": "Sole proprietor (SSN) Estate (SSN of decedent)",
+   "above": "8c If 8a is “Yes,” was 9a Type of entity",
+   "below": "Partnership"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    506.0,
+    342.4,
+    514.0
+   ],
+   "tip": null,
+   "states": [
+    "/8"
+   ],
+   "left": "Sole proprietor (SSN)",
+   "right": "Estate (SSN of decedent)",
+   "above": ". . . . . . . the instructions for the correct",
+   "below": "Plan administrator"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_15[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    439.2,
+    492.0,
+    576.0,
+    504.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Partnership Plan administrator (TIN)",
+   "right": "",
+   "above": "box to check. decedent)",
+   "below": "grantor)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[2]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    494.0,
+    68.8,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "",
+   "right": "Partnership Plan administrator (TIN)",
+   "above": "9a Type of entity Sole proprietor",
+   "below": "Corporation"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[3]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    494.0,
+    342.4,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/9"
+   ],
+   "left": "Partnership",
+   "right": "Plan administrator (TIN)",
+   "above": "the instructions for the correct Estate (SSN",
+   "below": "Trust (TIN"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_16[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    237.6,
+    480.0,
+    324.0,
+    492.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Corporation (enter form number to be filed)",
+   "right": "Trust (TIN of grantor)",
+   "above": "Estate Plan",
+   "below": "Military/National"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_17[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    432.0,
+    480.0,
+    576.0,
+    492.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Corporation (enter form number to be filed) Trust (TIN of grantor)",
+   "right": "",
+   "above": "of decedent) administrator (TIN)",
+   "below": "Military/National Guard State/local government"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[4]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    482.0,
+    68.8,
+    490.0
+   ],
+   "tip": null,
+   "states": [
+    "/3"
+   ],
+   "left": "",
+   "right": "Corporation (enter form number to be filed) Trust (TIN of grantor)",
+   "above": "Sole proprietor Partnership",
+   "below": "Personal service"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[5]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    482.0,
+    342.4,
+    490.0
+   ],
+   "tip": null,
+   "states": [
+    "/10"
+   ],
+   "left": "Corporation (enter form number to be filed)",
+   "right": "Trust (TIN of grantor)",
+   "above": "Estate (SSN Plan administrator",
+   "below": "Military/National"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[6]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    470.0,
+    68.8,
+    478.0
+   ],
+   "tip": null,
+   "states": [
+    "/4"
+   ],
+   "left": "",
+   "right": "Personal service corporation Military/National Guard State/local government",
+   "above": "Partnership Corporation",
+   "below": "Church or"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[7]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    470.0,
+    342.4,
+    478.0
+   ],
+   "tip": null,
+   "states": [
+    "/11"
+   ],
+   "left": "Personal service corporation",
+   "right": "Military/National Guard State/local government",
+   "above": "Plan administrator Trust (TIN",
+   "below": "Farmers’ cooperative"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[8]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    442.4,
+    470.0,
+    450.4,
+    478.0
+   ],
+   "tip": null,
+   "states": [
+    "/14"
+   ],
+   "left": "Personal service corporation Military/National Guard",
+   "right": "State/local government",
+   "above": "administrator (TIN) grantor)",
+   "below": "cooperative Federal government"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[9]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    458.0,
+    68.8,
+    466.0
+   ],
+   "tip": null,
+   "states": [
+    "/5"
+   ],
+   "left": "",
+   "right": "Church or church-controlled organization Farmers’ cooperative Federal government",
+   "above": "Corporation Personal service",
+   "below": "Other nonprofit"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[10]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    458.0,
+    342.4,
+    466.0
+   ],
+   "tip": null,
+   "states": [
+    "/12"
+   ],
+   "left": "Church or church-controlled organization",
+   "right": "Farmers’ cooperative Federal government",
+   "above": "Trust (TIN Military/National",
+   "below": "REMIC"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[11]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    442.4,
+    458.0,
+    450.4,
+    466.0
+   ],
+   "tip": null,
+   "states": [
+    "/15"
+   ],
+   "left": "Church or church-controlled organization Farmers’ cooperative",
+   "right": "Federal government",
+   "above": "grantor) Military/National Guard State/local",
+   "below": "Indian tribal"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_18[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    216.0,
+    444.0,
+    324.0,
+    456.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Other nonprofit organization (specify)",
+   "right": "REMIC Indian tribal governments/enterprises",
+   "above": "Military/National organization Farmers’",
+   "below": "Group Exemption"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[12]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    446.0,
+    68.8,
+    454.0
+   ],
+   "tip": null,
+   "states": [
+    "/6"
+   ],
+   "left": "",
+   "right": "Other nonprofit organization (specify) REMIC Indian tribal governments/enterprises",
+   "above": "Personal service Church or",
+   "below": "Other (specify)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[13]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    334.4,
+    446.0,
+    342.4,
+    454.0
+   ],
+   "tip": null,
+   "states": [
+    "/13"
+   ],
+   "left": "Other nonprofit organization (specify)",
+   "right": "REMIC Indian tribal governments/enterprises",
+   "above": "Military/National Farmers’ cooperative",
+   "below": "Group Exemption"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[14]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    442.4,
+    446.0,
+    450.4,
+    454.0
+   ],
+   "tip": null,
+   "states": [
+    "/16"
+   ],
+   "left": "Other nonprofit organization (specify) REMIC",
+   "right": "Indian tribal governments/enterprises",
+   "above": "Military/National Guard State/local cooperative Federal government",
+   "below": "Number (GEN) if any"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_19[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    144.0,
+    432.0,
+    324.0,
+    444.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Other (specify)",
+   "right": "Group Exemption Number (GEN) if any",
+   "above": "or church-controlled organization Farmers’ nonprofit organization (specify) REMIC",
+   "below": "name the state or foreign country (if State"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_20[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    473.0,
+    432.0,
+    576.0,
+    444.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Other (specify) Group Exemption Number (GEN) if any",
+   "right": "",
+   "above": "Federal government Indian tribal governments/enterprises",
+   "below": "Foreign country"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[15]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    434.0,
+    68.8,
+    442.0
+   ],
+   "tip": null,
+   "states": [
+    "/7"
+   ],
+   "left": "",
+   "right": "Other (specify) Group Exemption Number (GEN) if any",
+   "above": "Church or Other nonprofit",
+   "below": "9b If a corporation,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_21[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    274.6,
+    408.0,
+    402.4,
+    422.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "9b applicable) where incorporated",
+   "right": "",
+   "above": "Group Exemption Number (GEN) State Foreign country country (if",
+   "below": "Banking purpose (specify purpose)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_22[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    404.2,
+    408.0,
+    576.0,
+    422.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "9b applicable) where incorporated",
+   "right": "",
+   "above": "Exemption Number (GEN) if any Foreign country",
+   "below": "(specify purpose)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_24[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    424.8,
+    396.0,
+    576.0,
+    408.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "10 Reason for applying (check only one box) Banking purpose (specify purpose)",
+   "right": "",
+   "above": "Foreign country",
+   "below": "organization (specify new type)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[8]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.8,
+    397.0,
+    284.8,
+    405.0
+   ],
+   "tip": null,
+   "states": [
+    "/5"
+   ],
+   "left": "10 Reason for applying (check only one box)",
+   "right": "Banking purpose (specify purpose)",
+   "above": "(if State",
+   "below": "Changed type"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_25[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    208.8,
+    384.0,
+    266.4,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Started new business (specify type)",
+   "right": "Changed type of organization (specify new type)",
+   "above": "only one box) Banking",
+   "below": "Purchased"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_27[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    468.0,
+    384.0,
+    576.0,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Started new business (specify type) Changed type of organization (specify new type)",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    386.0,
+    68.8,
+    394.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "",
+   "right": "Started new business (specify type) Changed type of organization (specify new type)",
+   "above": "applicable) where 10 Reason for applying",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.8,
+    385.0,
+    284.8,
+    393.0
+   ],
+   "tip": null,
+   "states": [
+    "/6"
+   ],
+   "left": "Started new business (specify type)",
+   "right": "Changed type of organization (specify new type)",
+   "above": "Banking purpose",
+   "below": "Purchased"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_26[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    57.6,
+    372.0,
+    266.4,
+    384.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "Purchased going business",
+   "above": "applying (check only one box) Banking Started new business (specify type) Changed",
+   "below": "(Check the box and see line 13.) Created"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[2]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.8,
+    373.0,
+    284.8,
+    381.0
+   ],
+   "tip": null,
+   "states": [
+    "/7"
+   ],
+   "left": "",
+   "right": "Purchased going business",
+   "above": "Banking purpose Changed type",
+   "below": "13.) Created a"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_28[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    403.2,
+    360.0,
+    576.0,
+    372.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "(Check the box and see line 13.) Created a trust (specify type)",
+   "right": "",
+   "above": "organization (specify new type) business",
+   "below": "plan (specify type)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[3]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    361.0,
+    68.8,
+    369.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "",
+   "right": "Hired employees (Check the box and see line 13.) Created a trust",
+   "above": "Started new",
+   "below": "Compliance"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[4]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.8,
+    361.0,
+    284.8,
+    369.0
+   ],
+   "tip": null,
+   "states": [
+    "/8"
+   ],
+   "left": "Hired employees (Check the box and see line 13.)",
+   "right": "Created a trust (specify type)",
+   "above": "Changed type Purchased",
+   "below": "Created a"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_29[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    432.0,
+    348.0,
+    576.0,
+    360.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Compliance with IRS withholding regulations Created a pension plan (specify type)",
+   "right": "",
+   "above": "type)",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[5]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    349.0,
+    68.8,
+    357.0
+   ],
+   "tip": null,
+   "states": [
+    "/3"
+   ],
+   "left": "",
+   "right": "Compliance with IRS withholding regulations Created a pension plan (specify type)",
+   "above": "Hired employees",
+   "below": "Other (specify)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[6]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.8,
+    349.0,
+    284.8,
+    357.0
+   ],
+   "tip": null,
+   "states": [
+    "/9"
+   ],
+   "left": "Compliance with IRS withholding regulations",
+   "right": "Created a pension plan (specify type)",
+   "above": "Purchased 13.) Created a",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_30[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    136.8,
+    336.0,
+    576.0,
+    348.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Other (specify)",
+   "right": "",
+   "above": "type) Compliance with IRS withholding regulations Created a pension plan (specify type)",
+   "below": "See instructions. 12 Closing month of accounting year"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[7]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    338.0,
+    68.8,
+    346.0
+   ],
+   "tip": null,
+   "states": [
+    "/4"
+   ],
+   "left": "",
+   "right": "Other (specify)",
+   "above": "Hired employees Compliance",
+   "below": "11 Date business"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_32[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    353.6,
+    312.0,
+    576.0,
+    326.8
+   ],
+   "tip": null,
+   "states": null,
+   "left": "11 Date business started or acquired (month, day, year). See instructions. 12",
+   "right": "",
+   "above": "Created a pension plan (specify type)",
+   "below": "liability to be $1,000 or less in a"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_31[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    57.6,
+    312.0,
+    331.2,
+    326.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Date business started or acquired (month, day, year). See instructions. 12 Closing",
+   "below": "-0- if none). 14 If you expect 13"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_33[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    57.6,
+    252.0,
+    144.0,
+    266.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "you're you must in a file U.S. Form territory, 941 for in",
+   "above": "Agricultural Household",
+   "below": "15 First date wages or annuities were"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_34[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    144.0,
+    252.0,
+    230.4,
+    266.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "you're you must in a file U.S. Form territory, 941 for in",
+   "above": "Agricultural Household",
+   "below": "wages or annuities were paid (month, day, year)."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_35[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    230.4,
+    252.0,
+    331.2,
+    266.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "you're you must in a file U.S. Form territory, 941 for in",
+   "above": "941 quarterly, be $1,000 Household Other",
+   "below": "day, year). Note: If applicant is a withholding"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_5[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    563.6,
+    254.0,
+    571.6,
+    262.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "file Form 941 for every quarter . . . . . .",
+   "right": "",
+   "above": "liability will generally $6,536 or less if check this box,",
+   "below": "first be paid to"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_36[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    396.0,
+    228.0,
+    576.0,
+    240.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": ". . . . . . . . . . . .",
+   "right": "",
+   "above": ". a withholding agent, enter date income will first be paid to",
+   "below": "care & social assistance Wholesale—agent/broker"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    320.0,
+    218.0,
+    328.0,
+    226.0
+   ],
+   "tip": null,
+   "states": [
+    "/7"
+   ],
+   "left": "Check one box that best describes the principal activity of your business.",
+   "right": "Health care & social assistance Wholesale—agent/broker",
+   "above": "If applicant is a withholding . . . . . . .",
+   "below": "warehousing Accommodation"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    449.6,
+    218.0,
+    457.6,
+    226.0
+   ],
+   "tip": null,
+   "states": [
+    "/10"
+   ],
+   "left": "describes the principal activity of your business. Health care & social assistance",
+   "right": "Wholesale—agent/broker",
+   "above": "agent, enter date income",
+   "below": "food service Wholesale—other"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[2]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    206.0,
+    68.8,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "",
+   "right": "Construction Rental & leasing Transportation & warehousing Accommodation & food service Wholesale—other",
+   "above": "nonresident alien 16 Check one box",
+   "below": "Real estate"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[3]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    125.6,
+    206.0,
+    133.6,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/3"
+   ],
+   "left": "Construction",
+   "right": "Rental & leasing Transportation & warehousing Accommodation & food service Wholesale—other Retail",
+   "above": "nonresident alien (month, day, year) one box that best describes",
+   "below": "Real estate Manufacturing"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[4]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    204.8,
+    206.0,
+    212.8,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/5"
+   ],
+   "left": "Construction Rental & leasing",
+   "right": "Transportation & warehousing Accommodation & food service Wholesale—other Retail",
+   "above": "year) . . . . . . describes the principal activity of",
+   "below": "Manufacturing Finance &"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[5]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    320.0,
+    206.0,
+    328.0,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/8"
+   ],
+   "left": "Construction Rental & leasing Transportation & warehousing",
+   "right": "Accommodation & food service Wholesale—other Retail",
+   "above": ". . . . . . . business. Health care",
+   "below": "insurance Other (specify)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[6]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    449.6,
+    206.0,
+    457.6,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/11"
+   ],
+   "left": "Construction Rental & leasing Transportation & warehousing Accommodation & food service",
+   "right": "Wholesale—other Retail",
+   "above": "assistance Wholesale—agent/broker",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[7]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    536.0,
+    206.0,
+    544.0,
+    214.0
+   ],
+   "tip": null,
+   "states": [
+    "/12"
+   ],
+   "left": "Construction Rental & leasing Transportation & warehousing Accommodation & food service Wholesale—other",
+   "right": "Retail",
+   "above": "Wholesale—agent/broker",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_37[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    396.0,
+    192.0,
+    576.0,
+    204.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Real estate Manufacturing Finance & insurance Other (specify)",
+   "right": "",
+   "above": "care & social assistance Wholesale—agent/broker Accommodation & food service Wholesale—other Retail",
+   "below": "products produced, or services provided."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[8]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    60.8,
+    194.0,
+    68.8,
+    202.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "",
+   "right": "Real estate Manufacturing Finance & insurance Other (specify)",
+   "above": "16 Check one box Construction",
+   "below": "17 Indicate principal"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[9]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    125.6,
+    194.0,
+    133.6,
+    202.0
+   ],
+   "tip": null,
+   "states": [
+    "/4"
+   ],
+   "left": "Real estate",
+   "right": "Manufacturing Finance & insurance Other (specify)",
+   "above": "one box that best describes Construction Rental & leasing",
+   "below": "Indicate principal line of merchandise"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[10]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    204.8,
+    194.0,
+    212.8,
+    202.0
+   ],
+   "tip": null,
+   "states": [
+    "/6"
+   ],
+   "left": "Real estate Manufacturing",
+   "right": "Finance & insurance Other (specify)",
+   "above": "describes the principal activity of & leasing Transportation",
+   "below": "merchandise sold, specific construction"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[11]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    320.0,
+    194.0,
+    328.0,
+    202.0
+   ],
+   "tip": null,
+   "states": [
+    "/9"
+   ],
+   "left": "Real estate Manufacturing Finance & insurance",
+   "right": "Other (specify)",
+   "above": "business. Health care warehousing Accommodation",
+   "below": "construction work done, products produced,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_38[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    57.6,
+    168.0,
+    576.0,
+    182.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "17",
+   "right": "",
+   "above": "of merchandise sold, specific construction work done, products produced, or services provided.",
+   "below": "applied for and received an EIN? Yes No"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_7[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    356.0,
+    158.0,
+    364.0,
+    166.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "entity shown on line 1 ever applied for and received an EIN?",
+   "right": "Yes No",
+   "above": "done, products produced,",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_7[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    399.2,
+    158.0,
+    407.2,
+    166.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "shown on line 1 ever applied for and received an EIN? Yes",
+   "right": "No",
+   "above": "products produced, or services provided.",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_39[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    177.1,
+    144.0,
+    280.8,
+    156.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "If “Yes,” write previous EIN here",
+   "right": "",
+   "above": "entity shown on line 1 ever applied for and received an EIN?",
+   "below": "you want to authorize the named individual to"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_40[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    87.4,
+    108.0,
+    431.2,
+    122.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Party",
+   "right": "",
+   "above": "the entity’s EIN and answer questions about Designee’s name Third Designee’s telephone",
+   "below": "Address and ZIP code Designee’s fax Designee"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_41[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    433.0,
+    108.0,
+    576.0,
+    122.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Party",
+   "right": "",
+   "above": "about the completion of this form. Designee’s telephone number (include area code)",
+   "below": "Designee’s fax number (include area code)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_42[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    87.4,
+    84.0,
+    431.2,
+    98.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Party Designee Address and ZIP code Designee’s fax",
+   "below": "it is true, correct, and complete. Applicant’s telephone"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_43[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    433.0,
+    84.0,
+    576.0,
+    98.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Designee’s fax number (include area code)",
+   "below": "and complete. Applicant’s telephone number (include area code)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_45[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    433.0,
+    60.0,
+    576.0,
+    74.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Name and title (type or print clearly)",
+   "right": "",
+   "above": "Applicant’s telephone number (include area code) and complete.",
+   "below": "Applicant’s fax number (include area code)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_44[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    151.0,
+    60.0,
+    431.2,
+    72.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Name and title (type or print clearly)",
+   "right": "",
+   "above": "my knowledge and belief, it is true, correct, and complete. Applicant’s telephone",
+   "below": "Applicant’s fax"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_46[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    433.0,
+    36.0,
+    576.0,
+    50.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Signature Date",
+   "right": "",
+   "above": "Applicant’s fax number (include area code)",
+   "below": "16055N Form (Rev. 12-2025) Created 10/17/25 SS-4"
+  }
+ ]
+}

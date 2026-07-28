@@ -1,0 +1,241 @@
+{
+ "form": "irs-8821",
+ "sourceFile": "Form 8821 Jan 2021.pdf",
+ "discoveredBy": "claude-opus-5",
+ "discoveredAt": "2026-07-28T12:14:06.960Z",
+ "entries": [
+  {
+   "field": "topmostSubform[0].Page1[0].f1_6[0]",
+   "target": "form8821.taxpayerNameAndAddressBlock",
+   "labelQuote": "Taxpayer information.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_7[0]",
+   "target": "form8821.taxpayerIdentificationNumbers",
+   "labelQuote": "Taxpayer identification number(s)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_8[0]",
+   "target": "estateEntity.daytimePhone.number",
+   "labelQuote": "Daytime telephone number",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_11[0]",
+   "target": "form8821.designees.0.cafNumber",
+   "labelQuote": "CAF No.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_12[0]",
+   "target": "form8821.designees.0.ptin",
+   "labelQuote": "PTIN",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_13[0]",
+   "target": "form8821.designees.0.phone.number",
+   "labelQuote": "Telephone No.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_14[0]",
+   "target": "form8821.designees.0.faxNumber",
+   "labelQuote": "Fax No.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_16[0]",
+   "target": "form8821.designees.1.cafNumber",
+   "labelQuote": "CAF No.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_17[0]",
+   "target": "form8821.designees.1.ptin",
+   "labelQuote": "PTIN",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_20[0]",
+   "target": "taxMatters.authorizationRows.0.typeOfTaxInformation",
+   "labelQuote": "Employment, Payroll, Excise, Estate, Gift,",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_21[0]",
+   "target": "taxMatters.authorizationRows.0.taxFormNumber",
+   "labelQuote": "(1040, 941, 720, etc.)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_22[0]",
+   "target": "taxMatters.authorizationRows.0.yearsOrPeriods",
+   "labelQuote": "etc.)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_12[0]",
+   "target": "form8821.retainPriorAuthorizations",
+   "labelQuote": "line 4 box the line 5",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "form8821.retainPriorAuthorizations"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_32[0]",
+   "target": "form8821.signature.printName",
+   "labelQuote": "Print Name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_33[0]",
+   "target": "form8821.signature.title",
+   "labelQuote": "Title (if applicable)",
+   "page": 1,
+   "type": "/Tx"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
+   "note": "\"For IRS Use Only\" block — completed by the IRS, no record source."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Pg1Header[0].f1_2[0]",
+   "note": "Part of the \"For IRS Use Only\" received-by block, not the taxpayer's name."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Pg1Header[0].f1_3[0]",
+   "note": "\"For IRS Use Only\" block — IRS employee's telephone, no record source."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Pg1Header[0].f1_4[0]",
+   "note": "\"For IRS Use Only\" block — no record source."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Pg1Header[0].f1_5[0]",
+   "note": "\"For IRS Use Only\" block — IRS received date, not the signature date."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_9[0]",
+   "note": "Employee plan number; the estate record carries no such value."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[0]",
+   "note": "Ticked only when more than two designees are named; the record holds at most designees.0 and designees.1, so this cannot be decided by a test and must be set by a human."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_2[0]",
+   "note": "Record has no flag for sending copies of notices to designee 0; human decision."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[0]",
+   "note": "\"New since last authorization\" indicator; the record carries no prior-authorization comparison."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[0]",
+   "note": "\"Check if new\" for designee 0's telephone; no record value supports this."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_5[0]",
+   "note": "\"Check if new\" for designee 0's fax; no record value supports this."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_18[0]",
+   "note": "Second designee's telephone; the record has no form8821.designees.1 phone path."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_19[0]",
+   "note": "Second designee's fax; the record has no form8821.designees.1 fax path."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[0]",
+   "note": "Record has no flag for sending copies of notices to designee 1; human decision."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_7[0]",
+   "note": "\"New since last authorization\" indicator for designee 1; no record value supports this."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_8[0]",
+   "note": "One of the \"Check if new:\" indicators for the designee's contact details (box follows \"Telephone No.\", with \"Fax No.\" to its right). The record carries no flag for whether a designee's phone number is new, so this must be ticked by hand."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_9[0]",
+   "note": "The \"Check if new:\" indicator for the designee's fax number. No corresponding record path; human decision."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_10[0]",
+   "note": "Intermediate Service Provider authorization on line 3. The record has no field for this election; must be ticked by hand."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_23[0]",
+   "note": "Fourth column of row 1 (Specific Tax Matters by position), but no printed text was captured next to this widget, so there is no label to anchor the mapping."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_24[0]",
+   "note": "Second data row of the line 3 table; the record holds only authorizationRows.0 and no printed text identifies this cell."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_25[0]",
+   "note": "Second data row of the line 3 table; no record path and no printed text."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_26[0]",
+   "note": "Second data row of the line 3 table; no record path and no printed text."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_27[0]",
+   "note": "Second data row of the line 3 table; no record path and no printed text."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_28[0]",
+   "note": "Third data row of the line 3 table; the record holds only authorizationRows.0. The text below it belongs to line 4, not to this cell."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_29[0]",
+   "note": "Third data row of the line 3 table; no record path. Text below belongs to line 4."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_30[0]",
+   "note": "Third data row of the line 3 table; no record path. Text below belongs to line 4."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_31[0]",
+   "note": "Third data row of the line 3 table; no record path. Text below belongs to line 4."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_11[0]",
+   "note": "Line 4, specific use not recorded on the CAF. The record carries no specific-use election; human decision."
+  }
+ ],
+ "rejected": [
+  {
+   "field": "topmostSubform[0].Page1[0].f1_10[0]",
+   "verdict": "unsupported_label",
+   "note": "Claimed label \"Name and address\" is not printed near topmostSubform[0].Page1[0].f1_10[0]. Nearby text: \"designees is attached ▶ · CAF PTIN Telephone Fax Check No. No. if new: No. Address Telephone\""
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_15[0]",
+   "verdict": "unsupported_label",
+   "note": "Claimed label \"Name and address\" is not printed near topmostSubform[0].Page1[0].f1_15[0]. Nearby text: \"Check if to be sent copies of notices and communications Check if · CAF PTIN Telephone Fax Check No. No. if new: No. Address Telephone\""
+  }
+ ]
+}

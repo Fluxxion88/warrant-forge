@@ -1,0 +1,658 @@
+{
+ "form": "irs-ss4",
+ "sourceFile": "Form SS-4 Dec 2025.pdf",
+ "discoveredBy": "claude-opus-5",
+ "discoveredAt": "2026-07-28T12:19:16.743Z",
+ "entries": [
+  {
+   "field": "topmostSubform[0].Page1[0].f1_2[0]",
+   "target": "estateEntity.legalName",
+   "labelQuote": "name of entity (or individual) for whom the EIN is being requested",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_4[0]",
+   "target": "estateEntity.careOfName",
+   "labelQuote": "Executor, administrator, trustee, “care of” name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Line4ReadOrder[0].f1_5[0]",
+   "target": "estateEntity.mailingAddress.line1",
+   "labelQuote": "address (room, apt., suite no. and street, or P.O. box)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].Line4ReadOrder[0].f1_6[0]",
+   "target": "estateEntity.mailingAddress.city",
+   "labelQuote": "4b City, state, and ZIP code (if foreign, see instructions)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_9[0]",
+   "target": "estateEntity.principalCounty",
+   "labelQuote": "County and state where principal business is located",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_10[0]",
+   "target": "fiduciary.name.full",
+   "labelQuote": "Name of responsible party",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_11[0]",
+   "target": "fiduciary.ssn",
+   "labelQuote": "SSN, ITIN, or EIN",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_14[0]",
+   "target": "decedent.ssn",
+   "labelQuote": "Estate (SSN of decedent)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[0]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Sole proprietor (SSN)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "formSS4.entityType == SoleProprietor"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[1]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Estate (SSN of decedent)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/8",
+   "condition": "formSS4.entityType == Estate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[2]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Partnership",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "formSS4.entityType == Partnership"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[3]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Plan administrator (TIN)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/9",
+   "condition": "formSS4.entityType == PlanAdministrator"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_16[0]",
+   "target": "formSS4.entityTypeQualifier",
+   "labelQuote": "Corporation (enter form number to be filed)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_17[0]",
+   "target": "estateEntity.trust.grantorTin",
+   "labelQuote": "Trust (TIN of grantor)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[4]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Corporation (enter form number to be filed)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/3",
+   "condition": "formSS4.entityType == Corporation"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[5]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Trust (TIN of grantor)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/10",
+   "condition": "formSS4.entityType == Trust"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[6]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Personal service corporation",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/4",
+   "condition": "formSS4.entityType == PersonalServiceCorporation"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[7]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Military/National Guard",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/11",
+   "condition": "formSS4.entityType == MilitaryNationalGuard"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[8]",
+   "target": "formSS4.entityType",
+   "labelQuote": "State/local government",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/14",
+   "condition": "formSS4.entityType == StateLocalGovernment"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[9]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Church or church-controlled organization",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/5",
+   "condition": "formSS4.entityType == ChurchOrChurchControlledOrganization"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[10]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Farmers’ cooperative",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/12",
+   "condition": "formSS4.entityType == FarmersCooperative"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[11]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Federal government",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/15",
+   "condition": "formSS4.entityType == FederalGovernment"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_18[0]",
+   "target": "formSS4.entityTypeQualifier",
+   "labelQuote": "Other nonprofit organization (specify)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[12]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Other nonprofit organization (specify)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/6",
+   "condition": "formSS4.entityType == OtherNonprofitOrganization"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[13]",
+   "target": "formSS4.entityType",
+   "labelQuote": "REMIC",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/13",
+   "condition": "formSS4.entityType == REMIC"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[14]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Indian tribal governments/enterprises",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/16",
+   "condition": "formSS4.entityType == IndianTribalGovernments"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_19[0]",
+   "target": "formSS4.entityTypeQualifier",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_3[15]",
+   "target": "formSS4.entityType",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/7",
+   "condition": "formSS4.entityType == Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_24[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Banking purpose (specify purpose)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[8]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Banking purpose (specify purpose)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/5",
+   "condition": "formSS4.reasonForApplying == BankingPurpose"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_25[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Started new business (specify type)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_27[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Changed type of organization (specify new type)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[0]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Started new business (specify type)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "formSS4.reasonForApplying == StartedNewBusiness"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[1]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Changed type of organization (specify new type)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/6",
+   "condition": "formSS4.reasonForApplying == ChangedTypeOfOrganization"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_26[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Started new business (specify type)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[2]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Purchased going business",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/7",
+   "condition": "formSS4.reasonForApplying == PurchasedGoingBusiness"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_28[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Created a trust (specify type)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[3]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Hired employees (Check the box and see line 13.)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "formSS4.reasonForApplying == HiredEmployees"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[4]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Created a trust (specify type)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/8",
+   "condition": "formSS4.reasonForApplying == CreatedATrust"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[5]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Compliance with IRS withholding regulations",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/3",
+   "condition": "formSS4.reasonForApplying == ComplianceWithIRSWithholdingRegulations"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[6]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Created a pension plan (specify type)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/9",
+   "condition": "formSS4.reasonForApplying == CreatedAPensionPlan"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_30[0]",
+   "target": "formSS4.reasonSpecify",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_4[7]",
+   "target": "formSS4.reasonForApplying",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/4",
+   "condition": "formSS4.reasonForApplying == Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_32[0]",
+   "target": "formSS4.closingMonthOfAccountingYear",
+   "labelQuote": "12",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_31[0]",
+   "target": "formSS4.businessStartOrAcquiredDate",
+   "labelQuote": "Date business started or acquired (month, day, year).",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_33[0]",
+   "target": "formSS4.expectedEmployees.agricultural",
+   "labelQuote": "Agricultural",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_34[0]",
+   "target": "formSS4.expectedEmployees.household",
+   "labelQuote": "Household",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_35[0]",
+   "target": "formSS4.expectedEmployees.other",
+   "labelQuote": "Other",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[0]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Health care & social assistance",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/7",
+   "condition": "formSS4.principalActivity == HealthCareAndSocialAssistance"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[1]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Wholesale—agent/broker",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/10",
+   "condition": "formSS4.principalActivity == WholesaleAgentBroker"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[2]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Construction",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "formSS4.principalActivity == Construction"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[3]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Rental & leasing",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/3",
+   "condition": "formSS4.principalActivity == RentalAndLeasing"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[4]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Transportation & warehousing",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/5",
+   "condition": "formSS4.principalActivity == TransportationAndWarehousing"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[5]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Accommodation & food service",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/8",
+   "condition": "formSS4.principalActivity == AccommodationAndFoodService"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[6]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Wholesale—other",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/11",
+   "condition": "formSS4.principalActivity == WholesaleOther"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[7]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Retail",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/12",
+   "condition": "formSS4.principalActivity == Retail"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_37[0]",
+   "target": "formSS4.principalActivityOther",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[8]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Real estate",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "formSS4.principalActivity == RealEstate"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[9]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Manufacturing",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/4",
+   "condition": "formSS4.principalActivity == Manufacturing"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[10]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Finance & insurance",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/6",
+   "condition": "formSS4.principalActivity == FinanceAndInsurance"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_6[11]",
+   "target": "formSS4.principalActivity",
+   "labelQuote": "Other (specify)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/9",
+   "condition": "formSS4.principalActivity == Other"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_38[0]",
+   "target": "formSS4.principalLineOfMerchandiseOrServices",
+   "labelQuote": "of merchandise sold, specific construction work done, products produced, or services provided.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_7[0]",
+   "target": "formSS4.hasEverAppliedForEin",
+   "labelQuote": "entity shown on line 1 ever applied for and received an EIN?",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/1",
+   "condition": "formSS4.hasEverAppliedForEin == true"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_7[1]",
+   "target": "formSS4.hasEverAppliedForEin",
+   "labelQuote": "shown on line 1 ever applied for and received an EIN? Yes",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/2",
+   "condition": "formSS4.hasEverAppliedForEin == false"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_39[0]",
+   "target": "formSS4.previousEin",
+   "labelQuote": "If “Yes,” write previous EIN here",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_40[0]",
+   "target": "formSS4.thirdPartyDesignee.name",
+   "labelQuote": "Designee’s name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_41[0]",
+   "target": "formSS4.thirdPartyDesignee.phone.number",
+   "labelQuote": "Designee’s telephone number (include area code)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_42[0]",
+   "target": "formSS4.thirdPartyDesignee.address.line1",
+   "labelQuote": "Address and ZIP code",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_43[0]",
+   "target": "formSS4.thirdPartyDesignee.faxNumber",
+   "labelQuote": "Designee’s fax number (include area code)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_44[0]",
+   "target": "formSS4.applicant.nameAndTitle",
+   "labelQuote": "Name and title (type or print clearly)",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_45[0]",
+   "target": "formSS4.applicant.phone.number",
+   "labelQuote": "Applicant’s telephone number (include area code)",
+   "page": 1,
+   "type": "/Tx"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "topmostSubform[0].Page1[0].PgHeader[0].f1_1[0]",
+   "note": "Header box in the top-right of the SS-4 masthead (the \"EIN\" box completed by the IRS). No applicant-supplied value corresponds to it; the estate's EIN is assigned by this application, not entered on it."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_3[0]",
+   "note": "Line 2 trade name. The record carries no trade/DBA name for the estate."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_7[0]",
+   "note": "Line 5a is the physical street address where the mailing address differs. The record has no separate physical-location line for the estate entity (decedent.residenceAddress is the decedent's, not the entity's), so this is left for a human."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_8[0]",
+   "note": "Line 5b, the city/state/ZIP of the line 5a physical address. Same gap as 5a — no entity physical address in the record."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_12[0]",
+   "note": "Line 8b number of LLC members. Not applicable to an estate and not carried in the record."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[0]",
+   "note": "Line 8a \"Yes\". The record carries no LLC indicator, so no condition can be written; a human must tick. (For an estate the answer is normally \"No\".)"
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_1[1]",
+   "note": "Line 8a \"No\" box. Same missing LLC indicator as c1_1[0]; left for a human."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_2[0]",
+   "note": "Line 8c \"Yes\" (LLC organized in the United States). Depends on the unrecorded LLC facts; human decision."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_2[1]",
+   "note": "Line 8c \"No\". Same as above; human decision."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_13[0]",
+   "note": "Entry box for the sole proprietor's SSN on line 9a. Not applicable to an estate; the record has no sole-proprietor SSN."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_15[0]",
+   "note": "TIN entry box for a plan administrator. No corresponding record path."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_20[0]",
+   "note": "Group exemption number is not carried in the estate record."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_21[0]",
+   "note": "Line 9b state of incorporation for a corporation; not the estate's principal state, so no record path applies."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_22[0]",
+   "note": "Line 9b foreign country of incorporation; the record carries no such value."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_29[0]",
+   "note": "This is the \"specify type\" write-in that sits to the right of the pension-plan option. The record carries only one formSS4.reasonSpecify, and it is bound below to the \"Other (specify)\" write-in, which is the one an estate application uses. Left unmapped rather than duplicating the same value into two boxes."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].c1_5[0]",
+   "note": "Line 14 election to file Form 944 annually instead of Form 941 quarterly. The record carries no employment-tax-liability estimate or filing election, so this cannot be decided by a test; a human must tick it."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_36[0]",
+   "note": "Line 15 first date wages/annuities paid (or date income first paid to a nonresident alien). No corresponding record path."
+  },
+  {
+   "field": "topmostSubform[0].Page1[0].f1_46[0]",
+   "note": "This is the applicant's fax box (right column, beside the Signature/Date line). The record has no applicant fax path — fiduciary.faxNumber is a different party's field and was not assumed. The Date box beside \"Signature\" does not appear among the widgets listed for this page, so formSS4.applicant.signatureDate is unmapped here."
+  }
+ ],
+ "rejected": []
+}

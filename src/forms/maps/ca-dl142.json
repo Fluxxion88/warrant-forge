@@ -1,0 +1,335 @@
+{
+ "form": "ca-dl142",
+ "sourceFile": "DL 142 R7 93.pdf",
+ "discoveredBy": "claude-opus-5",
+ "discoveredAt": "2026-07-28T12:10:03.131Z",
+ "entries": [
+  {
+   "field": "Name person DL/ID to be cancel",
+   "target": "formDL142.documentHolderName",
+   "labelQuote": "NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.line1",
+   "labelQuote": "aDDress",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "City person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.city",
+   "labelQuote": "ciTY",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Zip person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.zip",
+   "labelQuote": "Zip coDe",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "state.0",
+   "target": "formDL142.documentHolderAddress.state",
+   "labelQuote": "sTaTe",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Date of Birth.0",
+   "target": "formDL142.dateOfBirth",
+   "labelQuote": "DaTe oF birTh",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lic/ID no to be cancel.0",
+   "target": "formDL142.documentNumber",
+   "labelQuote": "liceNse or iD carD NUmber To be caNcelleD",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lost/Destroyed.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "lost/destroyed",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == LostDestroyed"
+  },
+  {
+   "field": "Attached.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "attached",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Attached"
+  },
+  {
+   "field": "Other.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "other (explain on reverse)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Other"
+  },
+  {
+   "field": "Cancel-DL.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "Driver license (Dl)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == DriverLicense"
+  },
+  {
+   "field": "Cancel-ID.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "identification card (iD)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == IdentificationCard"
+  },
+  {
+   "field": "Cancel/Susp.0",
+   "target": "formDL142.reasonForCancellation",
+   "labelQuote": "reason for the cancellation or surrender:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Print Name.0",
+   "target": "formDL142.completedBy.printedName",
+   "labelQuote": "Print your name.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Text1",
+   "target": "formDL142.completedBy.signatureDate",
+   "labelQuote": "Enter date of signature.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address.0",
+   "target": "formDL142.completedBy.address.line1",
+   "labelQuote": "print address of person completing the form",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Name person DL/ID to be cancel",
+   "target": "formDL142.documentHolderName",
+   "labelQuote": "NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.line1",
+   "labelQuote": "enter address",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "state.0",
+   "target": "formDL142.documentHolderAddress.state",
+   "labelQuote": "state",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "City person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.city",
+   "labelQuote": "city",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Zip person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.zip",
+   "labelQuote": "zip code",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lic/ID no to be cancel.0",
+   "target": "formDL142.documentNumber",
+   "labelQuote": "license or id card number to be cancelled",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Date of Birth.0",
+   "target": "formDL142.dateOfBirth",
+   "labelQuote": "type in date of birth",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lost/Destroyed.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "lost/destroyed",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == LostDestroyed"
+  },
+  {
+   "field": "Attached.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "attached",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Attached"
+  },
+  {
+   "field": "Other.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "other (explain on reverse)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Other"
+  },
+  {
+   "field": "Cancel-DL.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "Driver license (Dl)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == DriverLicense"
+  },
+  {
+   "field": "Cancel-ID.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "identification card (iD)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == IdentificationCard"
+  },
+  {
+   "field": "Cancel/Susp.0",
+   "target": "formDL142.reasonForCancellation",
+   "labelQuote": "reason for the cancellation or surrender:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Print Name.0",
+   "target": "formDL142.completedBy.printedName",
+   "labelQuote": "priNT YoUr Name",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Text2",
+   "target": "formDL142.completedBy.signatureDate",
+   "labelQuote": "Enter date of signature.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address.0",
+   "target": "formDL142.completedBy.address.line1",
+   "labelQuote": "print address of person completing the form",
+   "page": 1,
+   "type": "/Tx"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "Yes-1.0",
+   "note": "Minor-licence section; the record carries no field for whether the minor holds the licence. Must be ticked by a human."
+  },
+  {
+   "field": "No-1.0",
+   "note": "Same question, negative box. No record path exists for it."
+  },
+  {
+   "field": "Yes-2.0",
+   "note": "No record field for change of custody of a minor. Human decision."
+  },
+  {
+   "field": "No-2.0",
+   "note": "Same question, negative box. No record path exists for it."
+  },
+  {
+   "field": "Signed minor app for lic.0",
+   "note": "One of three mutually exclusive certifications about the minor's application; the record carries no corresponding value. Human must tick."
+  },
+  {
+   "field": "Did not sign app-gav written consent.0",
+   "note": "Second of the three certifications; no record path. Human must tick."
+  },
+  {
+   "field": "Did not sign app-now custody.0",
+   "note": "Third of the three certifications; no record path. Human must tick."
+  },
+  {
+   "field": "Signature Date.0",
+   "note": "DMV-use block. Completed by the agency employee, not from the estate record."
+  },
+  {
+   "field": "Office No.0",
+   "note": "DMV-use block. Agency office number; no source in the record."
+  },
+  {
+   "field": "Yes-1.0",
+   "note": "Minor-custody section; the record carries no field for whether the licence is in the minor's possession. Must be ticked by a human."
+  },
+  {
+   "field": "No-1.0",
+   "note": "Negative branch of the same question; no record path exists. Must be ticked by a human."
+  },
+  {
+   "field": "Yes-2.0",
+   "note": "No record path for change of custody. Must be ticked by a human."
+  },
+  {
+   "field": "No-2.0",
+   "note": "Negative branch of the same question; no record path exists. Must be ticked by a human."
+  },
+  {
+   "field": "Signed minor app for lic.0",
+   "note": "One of three mutually exclusive certifications about the minor's application; the record carries no corresponding value. Must be ticked by a human."
+  },
+  {
+   "field": "Did not sign app-gav written consent.0",
+   "note": "Second branch of the same certification; no record path exists. Must be ticked by a human."
+  },
+  {
+   "field": "Did not sign app-now custody.0",
+   "note": "Third branch of the same certification; no record path exists. Must be ticked by a human."
+  },
+  {
+   "field": "Signature Date.0",
+   "note": "DMV employee block — completed by the department, not from the estate record."
+  },
+  {
+   "field": "Office No.0",
+   "note": "DMV employee block — office number is departmental data with no source in the record."
+  },
+  {
+   "field": "Print",
+   "note": "Form action button, not a data field."
+  },
+  {
+   "field": "Clear Form",
+   "note": "Form action button, not a data field."
+  }
+ ],
+ "rejected": []
+}

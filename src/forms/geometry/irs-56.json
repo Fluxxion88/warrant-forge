@@ -1,0 +1,1309 @@
+{
+ "form": "irs-56",
+ "sourceFile": "Form 56 June 2026.pdf",
+ "pages": 2,
+ "pageSizes": [
+  {
+   "page": 1,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "page": 2,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "widgets": [
+  {
+   "name": "topmostSubform[0].Page1[0].f1_01[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    672.0,
+    373.6,
+    686.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "for whom you’re acting (as shown on the tax return) Identifying number",
+   "below": "If you have a P.O. box, see instructions."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_02[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    374.4,
+    672.0,
+    468.0,
+    686.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Identifying number Decedent’s",
+   "below": "instructions."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_03[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    468.0,
+    672.0,
+    576.0,
+    686.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "number Decedent’s social security no.",
+   "below": "Room or suite no."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_04[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    648.0,
+    503.2,
+    662.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "street). If you have a P.O. box, see instructions. Room or suite",
+   "below": "State or province Country ZIP or foreign postal"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_05[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    504.0,
+    648.0,
+    576.0,
+    662.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Room or suite no.",
+   "below": "ZIP or foreign postal code"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_06[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    624.0,
+    272.9,
+    638.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "City or town State or province",
+   "below": "Fiduciary’s name"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_07[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    274.6,
+    624.0,
+    373.6,
+    638.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "State or province Country",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_08[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    375.4,
+    624.0,
+    474.4,
+    638.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Country ZIP or foreign",
+   "below": "Telephone no."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_09[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    475.2,
+    624.0,
+    576.0,
+    638.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "ZIP or foreign postal code",
+   "below": "Telephone no."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_10[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    600.0,
+    452.9,
+    614.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Fiduciary’s name Telephone",
+   "below": "If you have a P.O. box, see instructions."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_11[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    453.6,
+    600.0,
+    576.0,
+    614.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Telephone no.",
+   "below": "Room or suite no."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_12[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    576.0,
+    503.2,
+    590.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "street). If you have a P.O. box, see instructions. Room or suite",
+   "below": "State or province Country ZIP or foreign postal"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_13[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    504.0,
+    576.0,
+    576.0,
+    590.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Room or suite no.",
+   "below": "ZIP or foreign postal code"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_14[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    552.0,
+    272.9,
+    566.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "City or town State or province",
+   "below": "Section A—Authority"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_15[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    274.6,
+    552.0,
+    373.6,
+    566.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "State or province Country",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_16[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    375.4,
+    552.0,
+    474.4,
+    566.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Country ZIP or foreign",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_17[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    475.2,
+    552.0,
+    576.0,
+    566.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "ZIP or foreign postal code",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    518.0,
+    72.8,
+    526.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "a",
+   "right": "Court appointment of testate estate (valid will exists)",
+   "above": "Section A—Authority 1 Authority for",
+   "below": "b Court appointment"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    506.0,
+    72.8,
+    514.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "b",
+   "right": "Court appointment of intestate estate (no valid will exists)",
+   "above": "1 Authority for a Court appointment",
+   "below": "c Court appointment"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[2]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    494.0,
+    72.8,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/3"
+   ],
+   "left": "c",
+   "right": "Court appointment as guardian or conservator",
+   "above": "a Court appointment b Court appointment",
+   "below": "d Fiduciary"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[3]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    482.0,
+    72.8,
+    490.0
+   ],
+   "tip": null,
+   "states": [
+    "/4"
+   ],
+   "left": "d",
+   "right": "Fiduciary of intestate estate",
+   "above": "b Court appointment c Court appointment",
+   "below": "e Valid trust"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[4]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    470.0,
+    72.8,
+    478.0
+   ],
+   "tip": null,
+   "states": [
+    "/5"
+   ],
+   "left": "e",
+   "right": "Valid trust instrument and amendments",
+   "above": "c Court appointment d Fiduciary",
+   "below": "f Bankruptcy,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[5]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    458.0,
+    72.8,
+    466.0
+   ],
+   "tip": null,
+   "states": [
+    "/6"
+   ],
+   "left": "f",
+   "right": "Bankruptcy, appointment of receiver/fiduciary, or assignment for the benefit of creditors",
+   "above": "d Fiduciary e Valid trust",
+   "below": "g Other. Describe:"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_18[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    151.2,
+    444.0,
+    576.0,
+    456.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "g Other. Describe:",
+   "right": "",
+   "above": "amendments Bankruptcy, appointment of receiver/fiduciary, or assignment for the benefit of creditors",
+   "below": "1d is checked, enter the date of death:"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[6]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    446.0,
+    72.8,
+    454.0
+   ],
+   "tip": null,
+   "states": [
+    "/7"
+   ],
+   "left": "g",
+   "right": "Other. Describe:",
+   "above": "e Valid trust f Bankruptcy,",
+   "below": "2 a If box 1a, 1b,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_19[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    288.0,
+    432.0,
+    410.4,
+    444.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "box 1a, 1b, or 1d is checked, enter the date of death:",
+   "right": "",
+   "above": "receiver/fiduciary, or assignment for the benefit of creditors",
+   "below": "date of appointment, taking office, or assignment or"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_20[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    396.0,
+    576.0,
+    420.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "the date of appointment, taking office, or assignment or transfer of assets:",
+   "below": "of the taxpayer’s assets in the control or"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_2[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    507.0,
+    374.0,
+    515.0,
+    382.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": ". . . . . . . . . . . .",
+   "right": "Yes No",
+   "above": "taxpayer’s assets in the control",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_2[1]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    543.0,
+    374.0,
+    551.0,
+    382.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": ". . . . . . . . . . . Yes",
+   "right": "No",
+   "above": "assets in the control or",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_21[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    312.0,
+    576.0,
+    360.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "d",
+   "right": "",
+   "above": ". . . . . . . . . . Yes No",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    216.0,
+    289.8,
+    224.0,
+    297.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "3 Type of taxes (check all that apply):a",
+   "right": "Income b Gift c Estate d Generation-skipping transfer e Employment",
+   "above": "and Tax Notices",
+   "below": "(describe):"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    273.6,
+    289.8,
+    281.6,
+    297.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "3 Type of taxes (check all that apply):a Income b",
+   "right": "Gift c Estate d Generation-skipping transfer e Employment",
+   "above": "Notices",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_5[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    316.8,
+    289.8,
+    324.8,
+    297.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "3 Type of taxes (check all that apply):a Income b Gift c",
+   "right": "Estate d Generation-skipping transfer e Employment",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    367.2,
+    289.8,
+    375.2,
+    297.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "of taxes (check all that apply):a Income b Gift c Estate d",
+   "right": "Generation-skipping transfer e Employment",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_7[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    511.2,
+    289.8,
+    519.2,
+    297.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "all that apply):a Income b Gift c Estate d Generation-skipping transfer e",
+   "right": "Employment",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_22[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    208.8,
+    276.0,
+    576.0,
+    288.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "f Excise g Other (describe):",
+   "right": "",
+   "above": "that apply):a Income b Gift c Estate d Generation-skipping transfer e Employment",
+   "below": "709 series c 940 d 941, 943, 944"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_8[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    72.0,
+    277.8,
+    80.0,
+    285.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "f",
+   "right": "Excise g Other (describe):",
+   "above": "Section B—Nature 3 Type of taxes",
+   "below": "4 Federal tax form"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_9[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    122.4,
+    277.8,
+    130.4,
+    285.8
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "f Excise g",
+   "right": "Other (describe):",
+   "above": "B—Nature of Liability Type of taxes (check all that",
+   "below": "Federal tax form number (check"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_10[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    269.4,
+    266.0,
+    277.4,
+    274.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "4 Federal tax form number (check all that apply): a",
+   "right": "706 series b 709 series c 940 d 941, 943, 944",
+   "above": "Income b Gift c",
+   "below": "1120 h Other (list):"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_11[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    348.6,
+    266.0,
+    356.6,
+    274.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "Federal tax form number (check all that apply): a 706 series b",
+   "right": "709 series c 940 d 941, 943, 944",
+   "above": "c Estate d Generation-skipping",
+   "below": "Other (list):"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_12[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    427.8,
+    266.0,
+    435.8,
+    274.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "number (check all that apply): a 706 series b 709 series c",
+   "right": "940 d 941, 943, 944",
+   "above": "Generation-skipping transfer",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_13[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    485.4,
+    266.0,
+    493.4,
+    274.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "all that apply): a 706 series b 709 series c 940 d",
+   "right": "941, 943, 944",
+   "above": "Generation-skipping transfer e Employment",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_23[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    338.4,
+    252.0,
+    576.0,
+    264.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "e 1040 or 1040-SR f 1041 g 1120 h Other (list):",
+   "right": "",
+   "above": "series b 709 series c 940 d 941, 943, 944",
+   "below": ". . . . . . . ."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_14[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    75.0,
+    254.0,
+    83.0,
+    262.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "e",
+   "right": "1040 or 1040-SR f 1041 g 1120 h Other (list):",
+   "above": "f Excise g 4 Federal tax form",
+   "below": "5 a If your authority"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_15[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    175.8,
+    254.0,
+    183.8,
+    262.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "e 1040 or 1040-SR f",
+   "right": "1041 g 1120 h Other (list):",
+   "above": "Other (describe): number (check all that",
+   "below": "as a fiduciary does not"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_16[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    226.2,
+    254.0,
+    234.2,
+    262.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "e 1040 or 1040-SR f 1041 g",
+   "right": "1120 h Other (list):",
+   "above": "(describe): (check all that apply): a",
+   "below": "does not cover all years"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_17[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    276.6,
+    254.0,
+    284.6,
+    262.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "e 1040 or 1040-SR f 1041 g 1120 h",
+   "right": "Other (list):",
+   "above": "apply): a 706 series",
+   "below": "cover all years or tax periods,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_18[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    564.8,
+    242.0,
+    572.8,
+    250.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": ". . . . . . . . . . . .",
+   "right": "",
+   "above": "943, 944",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_24[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    204.0,
+    576.0,
+    228.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "checked line 5a, list the specific years or periods within your authority:",
+   "below": "and Privacy Act Notice, see separate instructions. 56"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_1[0]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    564.8,
+    698.0,
+    572.8,
+    706.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "years or periods covered by this notice concerning fiduciary relationship . .",
+   "right": "",
+   "above": "the Internal",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_2[0]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    674.0,
+    72.8,
+    682.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "b",
+   "right": "Court order revoking fiduciary authority",
+   "above": "Revenue Service Reason for termination",
+   "below": "c Certificate"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_2[1]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    662.0,
+    72.8,
+    670.0
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "c",
+   "right": "Certificate of dissolution or termination of a business entity",
+   "above": "Reason for termination b Court order",
+   "below": "d Other. Describe:"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_2[2]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    64.8,
+    650.0,
+    72.8,
+    658.0
+   ],
+   "tip": null,
+   "states": [
+    "/3"
+   ],
+   "left": "d",
+   "right": "Other. Describe:",
+   "above": "b Court order c Certificate",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_01[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    588.0,
+    576.0,
+    648.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "d",
+   "right": "",
+   "above": "c Certificate of dissolution or termination of a business entity",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_3[0]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    564.8,
+    554.0,
+    572.8,
+    562.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "this notice concerning fiduciary relationship . . . . . . .",
+   "right": "",
+   "above": "Revenue Service",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_02[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    480.0,
+    576.0,
+    540.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "b",
+   "right": "",
+   "above": "this notice concerning fiduciary relationship . . . . . . .",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].c2_4[0]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    564.8,
+    446.0,
+    572.8,
+    454.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": ". . . . . . . . . . . .",
+   "right": "",
+   "above": "fiduciary and",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_03[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    64.8,
+    384.0,
+    576.0,
+    444.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Part",
+   "right": "",
+   "above": "been or will be substituted for the revoking or terminating fiduciary and",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_04[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    348.0,
+    402.4,
+    362.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "proceeding, identify the type of proceeding and name of agency) Date proceeding",
+   "below": "and street) Room or suite no. Docket number"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_05[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    403.2,
+    348.0,
+    576.0,
+    362.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Date proceeding initiated",
+   "below": "or suite no. Docket number of proceeding"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_06[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    324.0,
+    337.6,
+    338.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Address of court (number and street) Room or suite",
+   "below": "City or town State ZIP code Date"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_07[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    338.4,
+    324.0,
+    403.2,
+    338.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Room or suite no. Docket number",
+   "below": "code Date Time"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_08[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    403.2,
+    324.0,
+    576.0,
+    338.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "or suite no. Docket number of proceeding",
+   "below": "Time a.m. Place of other proceedings"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[0]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    451.4,
+    313.5,
+    459.4,
+    321.5
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "City or town State ZIP code Date Time",
+   "right": "a.m. Place of other proceedings",
+   "above": "Docket number of proceeding",
+   "below": "p.m."
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_09[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    300.0,
+    208.1,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "p.m.",
+   "above": "City or town State",
+   "below": "Part IV Signature"
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_10[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    209.8,
+    300.0,
+    272.9,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "p.m.",
+   "above": "State ZIP code",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_11[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    273.6,
+    300.0,
+    338.4,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "p.m.",
+   "above": "ZIP code Date",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_12[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    338.4,
+    300.0,
+    403.2,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "p.m.",
+   "above": "code Date Time",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].Time_ReadOrder[0].f2_13[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    403.2,
+    300.0,
+    446.4,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "p.m.",
+   "above": "Time a.m.",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_14[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    483.4,
+    300.0,
+    576.0,
+    314.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "p.m.",
+   "right": "",
+   "above": "Place of other proceedings a.m.",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].Time_ReadOrder[0].c2_5[1]",
+   "page": 2,
+   "type": "/Btn",
+   "rect": [
+    451.4,
+    302.5,
+    459.4,
+    310.5
+   ],
+   "tip": null,
+   "states": [
+    "/2"
+   ],
+   "left": "",
+   "right": "p.m.",
+   "above": "Time Place a.m.",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page2[0].f2_15[0]",
+   "page": 2,
+   "type": "/Tx",
+   "rect": [
+    316.8,
+    240.0,
+    453.6,
+    252.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Here",
+   "right": "",
+   "above": "",
+   "below": "Title, if applicable Date"
+  }
+ ]
+}

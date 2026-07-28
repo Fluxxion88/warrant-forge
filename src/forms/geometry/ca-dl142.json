@@ -1,0 +1,1039 @@
+{
+ "form": "ca-dl142",
+ "sourceFile": "DL 142 R7 93.pdf",
+ "pages": 1,
+ "pageSizes": [
+  {
+   "page": 1,
+   "width": 1224.0,
+   "height": 792.0
+  }
+ ],
+ "widgets": [
+  {
+   "name": "Name person DL/ID to be cancel",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    121.9,
+    685.4,
+    588.7,
+    702.6
+   ],
+   "tip": "Information about the document being cancelled or surrendered section. NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "Information about",
+   "right": "",
+   "above": "Agency IDENTIFICATION CARD To",
+   "below": "document aDDress ciTY sTaTe Zip coDe"
+  },
+  {
+   "name": "Address person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.5,
+    661.9,
+    350.7,
+    679.1
+   ],
+   "tip": "enter address",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "the being document cancelled",
+   "right": "ciTY sTaTe Zip coDe",
+   "above": "showN oN The liceNse or iDeNTiFicaTioN carD To be caNcelleD Information about",
+   "below": "To be caNcelleD DaTe oF birTh locaTioN oF"
+  },
+  {
+   "name": "City person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    352.0,
+    661.9,
+    496.9,
+    678.5
+   ],
+   "tip": "city",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "the being document cancelled aDDress",
+   "right": "sTaTe Zip coDe",
+   "above": "iDeNTiFicaTioN carD To be caNcelleD",
+   "below": "DaTe oF birTh locaTioN oF liceNse"
+  },
+  {
+   "name": "Zip person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    529.1,
+    661.9,
+    589.1,
+    678.5
+   ],
+   "tip": "zip code",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "the being document cancelled aDDress ciTY sTaTe",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "state.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    498.8,
+    661.3,
+    527.8,
+    678.4
+   ],
+   "tip": "state",
+   "states": null,
+   "left": "the being document cancelled aDDress ciTY",
+   "right": "Zip coDe",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Date of Birth.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    298.2,
+    637.8,
+    356.2,
+    654.3
+   ],
+   "tip": "type in date of birth",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "or surrendered liceNse or iD carD NUmber To be caNcelleD",
+   "right": "locaTioN lost/destroyed oF liceNse attached other (explain on reverse)",
+   "above": "ciTY",
+   "below": "request the cancellation of my: Driver"
+  },
+  {
+   "name": "Lic/ID no to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    121.9,
+    637.4,
+    295.2,
+    653.9
+   ],
+   "tip": "license or id card number to be cancelled",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "or surrendered",
+   "right": "DaTe oF birTh locaTioN lost/destroyed oF liceNse attached other (explain on reverse)",
+   "above": "document cancelled",
+   "below": "voluntarily surrender and request the cancellation of surrender"
+  },
+  {
+   "name": "Lost/Destroyed.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    358.3,
+    641.6,
+    366.6,
+    649.9
+   ],
+   "tip": "check if license is lost or destroyed",
+   "states": [
+    "/Yes"
+   ],
+   "left": "",
+   "right": "lost/destroyed attached other (explain on reverse)",
+   "above": "oF birTh locaTioN oF liceNse",
+   "below": "cancellation of my: Driver license"
+  },
+  {
+   "name": "Attached.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    429.2,
+    641.6,
+    437.5,
+    649.9
+   ],
+   "tip": "check if license is attached",
+   "states": [
+    "/Yes"
+   ],
+   "left": "lost/destroyed",
+   "right": "attached other (explain on reverse)",
+   "above": "oF liceNse",
+   "below": "Driver license (Dl) or"
+  },
+  {
+   "name": "Other.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    480.7,
+    641.6,
+    488.3,
+    649.9
+   ],
+   "tip": "Check if location of license is other, please explain on reverse",
+   "states": [
+    "/Yes"
+   ],
+   "left": "lost/destroyed attached",
+   "right": "other (explain on reverse)",
+   "above": "",
+   "below": "(Dl) or identification"
+  },
+  {
+   "name": "Cancel-DL.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    360.1,
+    626.8,
+    368.4,
+    635.1
+   ],
+   "tip": "Voluntary surrender or cancellation of a D L or I D Card. I voluntarily surrender and request the cancellation of my driver license. Check if driver license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "Voluntary surrender i voluntarily surrender and request the cancellation of my:",
+   "right": "Driver license (Dl) or identification card (iD)",
+   "above": "oF birTh locaTioN oF liceNse lost/destroyed",
+   "below": ""
+  },
+  {
+   "name": "Cancel-ID.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    470.1,
+    626.8,
+    478.3,
+    635.1
+   ],
+   "tip": "or check if voluntarily surrender and request the cancellation of my identification card.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "voluntarily surrender and request the cancellation of my: Driver license (Dl) or",
+   "right": "identification card (iD)",
+   "above": "attached other (explain",
+   "below": ""
+  },
+  {
+   "name": "Cancel/Susp.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    292.6,
+    606.5,
+    575.9,
+    618.0
+   ],
+   "tip": "reason for the cancellation or surrender",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "DL or ID cancellation Card of reason for the cancellation or surrender:",
+   "right": "",
+   "above": "request the cancellation of my: Driver license (Dl) or identification card (iD)",
+   "below": "possession?"
+  },
+  {
+   "name": "Yes-1.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    299.3,
+    591.0,
+    308.2,
+    599.6
+   ],
+   "tip": "person cancelling minor child's application or driver license section. Is the license in the minors possession? Check if yes.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is the license in the minor’s possession?",
+   "right": "Yes No",
+   "above": "surrender:",
+   "below": "Yes the minor?"
+  },
+  {
+   "name": "No-1.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    338.1,
+    591.0,
+    346.4,
+    598.6
+   ],
+   "tip": "Check if no.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is the license in the minor’s possession? Yes",
+   "right": "No",
+   "above": "",
+   "below": "Yes No"
+  },
+  {
+   "name": "Yes-2.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    299.6,
+    578.2,
+    308.2,
+    587.5
+   ],
+   "tip": "Is there a change in custody of the minor? Check if yes.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is there a change in custody of the minor?",
+   "right": "Yes No",
+   "above": "surrender: possession? Yes",
+   "below": ""
+  },
+  {
+   "name": "No-2.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    338.1,
+    579.2,
+    346.4,
+    587.5
+   ],
+   "tip": "Check if no.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is there a change in custody of the minor? Yes",
+   "right": "No",
+   "above": "Yes No",
+   "below": ""
+  },
+  {
+   "name": "Signed minor app for lic.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    160.3,
+    546.8,
+    169.3,
+    556.7
+   ],
+   "tip": "I certify under penalty of perjury under the laws of the state of California that, check one. Check if I signed the minors application for a license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "application or",
+   "right": "i signed the minor’s application for a license.",
+   "above": "is there a change in custody i certify under penalty",
+   "below": "i did not sign"
+  },
+  {
+   "name": "Did not sign app-gav written consent.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    160.7,
+    535.0,
+    170.0,
+    543.6
+   ],
+   "tip": "Checki if I did not sign the application, but I gave written consent to the issuance of the minor's license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "driver license",
+   "right": "i did not sign the application but i gave written consent to",
+   "above": "i certify under penalty i signed the",
+   "below": "i did not sign"
+  },
+  {
+   "name": "Did not sign app-now custody.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    160.7,
+    520.8,
+    170.3,
+    530.1
+   ],
+   "tip": "Check if I did not sign the application, but now have custody of the minor.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "",
+   "right": "i did not sign the application but now have custody of the",
+   "above": "i signed the i did not sign",
+   "below": "priNT YoUr Name"
+  },
+  {
+   "name": "Print Name.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.5,
+    490.2,
+    586.9,
+    509.3
+   ],
+   "tip": "Signature of person completing the form. Print your name.",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "Signature",
+   "right": "",
+   "above": "did not sign the application but now have custody of the minor.",
+   "below": "person siGNaTUre DaTe"
+  },
+  {
+   "name": "Text1",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    510.2,
+    465.8,
+    589.6,
+    483.0
+   ],
+   "tip": "Enter date of signature.",
+   "states": null,
+   "left": "of person completing X siGNaTUre",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Address.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.5,
+    442.5,
+    588.0,
+    459.7
+   ],
+   "tip": "print address of person completing the form",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "the form",
+   "right": "",
+   "above": "person X completing",
+   "below": "oF emploYee aND iD NUmber oFFice NUmber DaTe"
+  },
+  {
+   "name": "Signature Date.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    508.2,
+    420.0,
+    587.7,
+    436.6
+   ],
+   "tip": "print date of DMV employee signing the form",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "DMV Employee X siGNaTUre oF emploYee aND iD NUmber oFFice NUmber",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Office No.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    410.3,
+    420.0,
+    506.2,
+    435.2
+   ],
+   "tip": "print office number of DMV employee signing the form",
+   "states": [
+    "/BBox",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "DMV Employee X siGNaTUre oF emploYee aND iD NUmber",
+   "right": "DaTe",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Name person DL/ID to be cancel",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.7,
+    292.7,
+    588.8,
+    309.8
+   ],
+   "tip": "Information about the document being cancelled or surrendered section. NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "states": null,
+   "left": "Information about",
+   "right": "",
+   "above": "Agency IDENTIFICATION CARD To",
+   "below": "document aDDress ciTY sTaTe Zip coDe"
+  },
+  {
+   "name": "Address person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    123.3,
+    269.2,
+    351.5,
+    286.3
+   ],
+   "tip": "enter address",
+   "states": null,
+   "left": "the being document cancelled",
+   "right": "ciTY sTaTe Zip coDe",
+   "above": "showN oN The liceNse or iDeNTiFicaTioN carD To be caNcelleD Information about",
+   "below": "To be caNcelleD DaTe oF birTh locaTioN oF"
+  },
+  {
+   "name": "state.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    500.8,
+    269.2,
+    530.6,
+    286.3
+   ],
+   "tip": "state",
+   "states": null,
+   "left": "the being document cancelled aDDress ciTY",
+   "right": "Zip coDe",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "City person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    352.8,
+    269.2,
+    499.3,
+    285.7
+   ],
+   "tip": "city",
+   "states": null,
+   "left": "the being document cancelled aDDress",
+   "right": "sTaTe Zip coDe",
+   "above": "iDeNTiFicaTioN carD To be caNcelleD",
+   "below": "DaTe oF birTh locaTioN oF liceNse"
+  },
+  {
+   "name": "Zip person DL/ID to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    532.0,
+    269.2,
+    589.3,
+    285.7
+   ],
+   "tip": "zip code",
+   "states": null,
+   "left": "the being document cancelled aDDress ciTY sTaTe",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Lic/ID no to be cancel.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.7,
+    245.7,
+    295.5,
+    262.2
+   ],
+   "tip": "license or id card number to be cancelled",
+   "states": null,
+   "left": "or surrendered",
+   "right": "DaTe oF birTh locaTioN lost/destroyed oF liceNse attached other (explain on reverse)",
+   "above": "document cancelled",
+   "below": "voluntarily surrender and request the cancellation of surrender"
+  },
+  {
+   "name": "Date of Birth.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    298.1,
+    245.0,
+    354.0,
+    261.5
+   ],
+   "tip": "type in date of birth",
+   "states": null,
+   "left": "or surrendered liceNse or iD carD NUmber To be caNcelleD",
+   "right": "locaTioN lost/destroyed oF liceNse attached other (explain on reverse)",
+   "above": "",
+   "below": "request the cancellation of my: Driver"
+  },
+  {
+   "name": "Lost/Destroyed.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    359.1,
+    249.8,
+    367.4,
+    258.1
+   ],
+   "tip": "check if license is lost or destroyed",
+   "states": [
+    "/Yes"
+   ],
+   "left": "",
+   "right": "lost/destroyed attached other (explain on reverse)",
+   "above": "oF birTh locaTioN oF liceNse",
+   "below": "cancellation of my: Driver license"
+  },
+  {
+   "name": "Attached.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    429.0,
+    249.8,
+    437.3,
+    258.1
+   ],
+   "tip": "check if license is attached",
+   "states": [
+    "/Yes"
+   ],
+   "left": "lost/destroyed",
+   "right": "attached other (explain on reverse)",
+   "above": "oF liceNse",
+   "below": "Driver license (Dl) or"
+  },
+  {
+   "name": "Other.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    480.5,
+    249.8,
+    488.2,
+    258.1
+   ],
+   "tip": "Check if location of license is other, please explain on reverse",
+   "states": [
+    "/Yes"
+   ],
+   "left": "lost/destroyed attached",
+   "right": "other (explain on reverse)",
+   "above": "",
+   "below": "(Dl) or identification"
+  },
+  {
+   "name": "Cancel-DL.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    359.9,
+    235.0,
+    368.2,
+    243.3
+   ],
+   "tip": "Voluntary surrender or cancellation of a D L or I D Card. I voluntarily surrender and request the cancellation of my driver license. Check if driver license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "Voluntary surrender i voluntarily surrender and request the cancellation of my:",
+   "right": "Driver license (Dl) or identification card (iD)",
+   "above": "oF birTh locaTioN oF liceNse lost/destroyed",
+   "below": ""
+  },
+  {
+   "name": "Cancel-ID.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    469.9,
+    235.0,
+    478.2,
+    243.3
+   ],
+   "tip": "or check if voluntarily surrender and request the cancellation of my identification card.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "voluntarily surrender and request the cancellation of my: Driver license (Dl) or",
+   "right": "identification card (iD)",
+   "above": "attached other (explain",
+   "below": ""
+  },
+  {
+   "name": "Cancel/Susp.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    291.4,
+    214.8,
+    576.4,
+    226.2
+   ],
+   "tip": "reason for the cancellation or surrender",
+   "states": null,
+   "left": "DL or ID cancellation Card of reason for the cancellation or surrender:",
+   "right": "",
+   "above": "request the cancellation of my: Driver license (Dl) or identification card (iD)",
+   "below": "possession?"
+  },
+  {
+   "name": "Yes-1.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    300.4,
+    199.3,
+    308.0,
+    206.9
+   ],
+   "tip": "person cancelling minor child's application or driver license section. Is the license in the minors possession? Check if yes.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is the license in the minor’s possession?",
+   "right": "Yes No",
+   "above": "surrender:",
+   "below": "Yes the minor?"
+  },
+  {
+   "name": "No-1.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    337.9,
+    199.3,
+    346.2,
+    206.9
+   ],
+   "tip": "Check if no.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is the license in the minor’s possession? Yes",
+   "right": "No",
+   "above": "",
+   "below": "Yes No"
+  },
+  {
+   "name": "Yes-2.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    300.4,
+    187.1,
+    308.0,
+    194.7
+   ],
+   "tip": "Is there a change in custody of the minor? Check if yes.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is there a change in custody of the minor?",
+   "right": "Yes No",
+   "above": "surrender: possession? Yes",
+   "below": ""
+  },
+  {
+   "name": "No-2.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    337.9,
+    187.1,
+    346.2,
+    194.7
+   ],
+   "tip": "Check if no.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "is there a change in custody of the minor? Yes",
+   "right": "No",
+   "above": "Yes No",
+   "below": ""
+  },
+  {
+   "name": "Signed minor app for lic.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    161.5,
+    155.0,
+    169.1,
+    163.3
+   ],
+   "tip": "I certify under penalty of perjury under the laws of the state of California that, check one. Check if I signed the minors application for a license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "application or",
+   "right": "i signed the minor’s application for a license.",
+   "above": "is there a change in custody i certify under penalty",
+   "below": "i did not sign"
+  },
+  {
+   "name": "Did not sign app-gav written consent.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    161.5,
+    143.2,
+    169.1,
+    150.9
+   ],
+   "tip": "Checki if I did not sign the application, but I gave written consent to the issuance of the minor's license.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "driver license",
+   "right": "i did not sign the application but i gave written consent to",
+   "above": "i certify under penalty i signed the",
+   "below": "i did not sign"
+  },
+  {
+   "name": "Did not sign app-now custody.0",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    162.0,
+    130.1,
+    169.1,
+    138.3
+   ],
+   "tip": "Check if I did not sign the application, but now have custody of the minor.",
+   "states": [
+    "/Yes"
+   ],
+   "left": "",
+   "right": "i did not sign the application but now have custody of the",
+   "above": "i signed the i did not sign",
+   "below": "priNT YoUr Name"
+  },
+  {
+   "name": "Print Name.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.3,
+    98.8,
+    588.9,
+    117.9
+   ],
+   "tip": "Signature of person completing the form. Print your name.",
+   "states": null,
+   "left": "Signature",
+   "right": "",
+   "above": "did not sign the application but now have custody of the minor.",
+   "below": "person siGNaTUre DaTe"
+  },
+  {
+   "name": "Text2",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    511.7,
+    74.1,
+    588.4,
+    91.7
+   ],
+   "tip": "Enter date of signature.",
+   "states": null,
+   "left": "of person completing X siGNaTUre",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Address.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    122.3,
+    51.8,
+    588.9,
+    68.9
+   ],
+   "tip": "print address of person completing the form",
+   "states": null,
+   "left": "the form",
+   "right": "",
+   "above": "siGNaTUre DaTe person completing X",
+   "below": "oF emploYee aND iD NUmber oFFice NUmber DaTe"
+  },
+  {
+   "name": "Signature Date.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    516.9,
+    28.3,
+    587.5,
+    44.8
+   ],
+   "tip": "print date of DMV employee signing the form",
+   "states": null,
+   "left": "DMV Employee X siGNaTUre oF emploYee aND iD NUmber oFFice NUmber",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Office No.0",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    409.1,
+    28.3,
+    516.0,
+    43.4
+   ],
+   "tip": "print office number of DMV employee signing the form",
+   "states": null,
+   "left": "DMV Employee X siGNaTUre oF emploYee aND iD NUmber",
+   "right": "DaTe",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "Print",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    189.2,
+    4.3,
+    257.2,
+    27.2
+   ],
+   "tip": "click here to print",
+   "states": [
+    "/BBox",
+    "/Filter",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "Dl 142 (reV. 12/2014) WWW",
+   "right": "",
+   "above": "siGNaTUre oF emploYee aND iD NUmber",
+   "below": ""
+  },
+  {
+   "name": "Clear Form",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    258.7,
+    4.3,
+    326.7,
+    27.2
+   ],
+   "tip": "click here to clear",
+   "states": [
+    "/BBox",
+    "/Filter",
+    "/FormType",
+    "/Matrix",
+    "/Resources",
+    "/Subtype",
+    "/Type"
+   ],
+   "left": "Dl 142 (reV. 12/2014) WWW",
+   "right": "",
+   "above": "iD NUmber",
+   "below": ""
+  }
+ ]
+}

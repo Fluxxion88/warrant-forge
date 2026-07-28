@@ -1,0 +1,366 @@
+{
+  "formId": "ca-dmv-dl142",
+  "version": 1,
+  "status": "draft",
+  "sourceFormSha256": "a4c813b558ba20d208c6080bd1e575b1e5a1dd80a829dc18aaefec78ad966e03",
+  "calibrationRef": "artifacts/calibration/ca-dmv-dl142.json",
+  "createdAt": "2026-07-28T20:09:33Z",
+  "approvedBy": null,
+  "approvedAt": null,
+  "anvilCastEid": null,
+  "bindings": [
+    {
+      "qualifiedName": "Address person DL/ID to be cancel.0",
+      "itemNumber": null,
+      "label": "ADDRESS",
+      "source": {
+        "kind": "path",
+        "path": "decedent.residenceAddress.line1"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": "Generic decedent address used per the same-value preference rule; formDL142.documentHolderAddress duplicates this value for this estate.",
+      "when": null
+    },
+    {
+      "qualifiedName": "City person DL/ID to be cancel.0",
+      "itemNumber": null,
+      "label": "CITY",
+      "source": {
+        "kind": "path",
+        "path": "decedent.residenceAddress.city"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "state.0",
+      "itemNumber": null,
+      "label": "STATE",
+      "source": {
+        "kind": "path",
+        "path": "decedent.residenceAddress.state"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Zip person DL/ID to be cancel.0",
+      "itemNumber": null,
+      "label": "ZIP CODE",
+      "source": {
+        "kind": "path",
+        "path": "decedent.residenceAddress.zip"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Lic/ID no to be cancel.0",
+      "itemNumber": null,
+      "label": "LICENSE OR ID CARD NUMBER TO BE CANCELLED",
+      "source": {
+        "kind": "path",
+        "path": "decedent.identifications[0].number"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "medium",
+      "note": "Re-sourced from the generic decedent.identifications array (entry: type 'DriversLicense', number 'D7418205', issuingState 'CA') per the same-value preference rule, rather than formDL142.documentNumber, which only duplicates this value for this estate and has no independent provenance of its own. This directly grounds the field in a raw estate fact, addressing the round-2 finding that the value had no verifiable source. Confidence is medium rather than high because array-position indexing (index 0) is not guaranteed stable across estates with more than one identification on file; such an estate would need a type-filtered lookup (e.g. matching type == 'DriversLicense') that this binding schema cannot express, so this path should be revisited if a multi-identification estate is bound.",
+      "when": null
+    },
+    {
+      "qualifiedName": "Lost/Destroyed.0",
+      "itemNumber": null,
+      "label": "Lost/destroyed",
+      "source": {
+        "kind": "condition",
+        "path": "formDL142.locationOfLicense",
+        "equals": "LostDestroyed"
+      },
+      "format": "checkbox",
+      "onValue": "/Yes",
+      "required": false,
+      "confidence": "low",
+      "note": "The only observed value for formDL142.locationOfLicense in the sample data is 'Attached'; the enum spelling for this option ('LostDestroyed') is an unverified guess following the PascalCase convention seen elsewhere (e.g. documentType).",
+      "when": null
+    },
+    {
+      "qualifiedName": "Attached.0",
+      "itemNumber": null,
+      "label": "Attached",
+      "source": {
+        "kind": "condition",
+        "path": "formDL142.locationOfLicense",
+        "equals": "Attached"
+      },
+      "format": "checkbox",
+      "onValue": "/Yes",
+      "required": false,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Other.0",
+      "itemNumber": null,
+      "label": "Other (explain on reverse)",
+      "source": {
+        "kind": "condition",
+        "path": "formDL142.locationOfLicense",
+        "equals": "Other"
+      },
+      "format": "checkbox",
+      "onValue": "/Yes",
+      "required": false,
+      "confidence": "low",
+      "note": "Enum spelling 'Other' is an unverified guess; not observed in the sample estate, which uses 'Attached'.",
+      "when": null
+    },
+    {
+      "qualifiedName": "Cancel-DL.0",
+      "itemNumber": null,
+      "label": "Driver License (DL)",
+      "source": {
+        "kind": "condition",
+        "path": "formDL142.documentType",
+        "equals": "DriverLicense"
+      },
+      "format": "checkbox",
+      "onValue": "/Yes",
+      "required": false,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Cancel-ID.0",
+      "itemNumber": null,
+      "label": "Identification Card (ID)",
+      "source": {
+        "kind": "condition",
+        "path": "formDL142.documentType",
+        "equals": "IdentificationCard"
+      },
+      "format": "checkbox",
+      "onValue": "/Yes",
+      "required": false,
+      "confidence": "low",
+      "note": "Enum spelling 'IdentificationCard' is an unverified guess; the sample estate's documentType value is 'DriverLicense', so no ID-card literal is observable in this record.",
+      "when": null
+    },
+    {
+      "qualifiedName": "Print Name.0",
+      "itemNumber": null,
+      "label": "PRINT YOUR NAME",
+      "source": {
+        "kind": "path",
+        "path": "fiduciary.name.full"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Address.0",
+      "itemNumber": null,
+      "label": "ADDRESS",
+      "source": {
+        "kind": "template",
+        "pattern": "{0}, {1}, {2} {3}",
+        "paths": [
+          "fiduciary.address.line1",
+          "fiduciary.address.city",
+          "fiduciary.address.state",
+          "fiduciary.address.zip"
+        ]
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "medium",
+      "note": "The form provides a single address box for the person completing the form (no separate city/state/zip fields as in the document-holder section above), so line1/city/state/zip are joined into one composite string.",
+      "when": null
+    },
+    {
+      "qualifiedName": "Name person DL/ID to be cancel",
+      "itemNumber": null,
+      "label": "NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+      "source": {
+        "kind": "path",
+        "path": "decedent.name.full"
+      },
+      "format": "text",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": null,
+      "when": null
+    },
+    {
+      "qualifiedName": "Text1",
+      "itemNumber": null,
+      "label": "DATE",
+      "source": {
+        "kind": "path",
+        "path": "fiduciary.signatureDate"
+      },
+      "format": "date",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": "Top copy's signature date; same value as Text2 since both copies are signed together.",
+      "when": null
+    },
+    {
+      "qualifiedName": "Text2",
+      "itemNumber": null,
+      "label": "DATE",
+      "source": {
+        "kind": "path",
+        "path": "fiduciary.signatureDate"
+      },
+      "format": "date",
+      "onValue": null,
+      "required": true,
+      "confidence": "high",
+      "note": "Bottom tear-off copy's signature date; same value as Text1 since both copies are signed together.",
+      "when": null
+    }
+  ],
+  "unbound": [
+    {
+      "qualifiedName": "Yes-1.0",
+      "label": "Yes",
+      "reason": "formDL142.minorSection is null for this estate; the decedent is an adult and no minor's-license custodial scenario applies.",
+      "whatWouldFillIt": "formDL142.minorSection.licenseInMinorsPossession (or equivalent field) on an estate involving cancellation of a minor's license."
+    },
+    {
+      "qualifiedName": "No-1.0",
+      "label": "No",
+      "reason": "formDL142.minorSection is null for this estate; the decedent is an adult and no minor's-license custodial scenario applies.",
+      "whatWouldFillIt": "formDL142.minorSection.licenseInMinorsPossession (or equivalent field) on an estate involving cancellation of a minor's license."
+    },
+    {
+      "qualifiedName": "Yes-2.0",
+      "label": "Yes",
+      "reason": "formDL142.minorSection is null for this estate; there is no minor whose custody could have changed.",
+      "whatWouldFillIt": "formDL142.minorSection.custodyChanged (or equivalent field) on an estate involving a minor's license."
+    },
+    {
+      "qualifiedName": "No-2.0",
+      "label": "No",
+      "reason": "formDL142.minorSection is null for this estate; there is no minor whose custody could have changed.",
+      "whatWouldFillIt": "formDL142.minorSection.custodyChanged (or equivalent field) on an estate involving a minor's license."
+    },
+    {
+      "qualifiedName": "Signed minor app for lic.0",
+      "label": "I signed the minor's application for a license.",
+      "reason": "formDL142.minorSection is null for this estate; the person completing the form is not acting as a minor's parent/guardian.",
+      "whatWouldFillIt": "formDL142.minorSection.consentBasis (or equivalent field) identifying which of the three minor-consent bases applies."
+    },
+    {
+      "qualifiedName": "Did not sign app-gav written consent.0",
+      "label": "I did not sign the application but I gave written consent to the issuance of the minor's license.",
+      "reason": "formDL142.minorSection is null for this estate; the person completing the form is not acting as a minor's parent/guardian.",
+      "whatWouldFillIt": "formDL142.minorSection.consentBasis (or equivalent field) identifying which of the three minor-consent bases applies."
+    },
+    {
+      "qualifiedName": "Did not sign app-now custody.0",
+      "label": "I did not sign the application but now have custody of the minor.",
+      "reason": "formDL142.minorSection is null for this estate; the person completing the form is not acting as a minor's parent/guardian.",
+      "whatWouldFillIt": "formDL142.minorSection.consentBasis (or equivalent field) identifying which of the three minor-consent bases applies."
+    },
+    {
+      "qualifiedName": "Office No.0",
+      "label": "OFFICE NUMBER",
+      "reason": "DMV office number is assigned by department staff at the time of processing; it is not estate data.",
+      "whatWouldFillIt": "No estate data path applies; filled by the DMV employee handling the transaction."
+    },
+    {
+      "qualifiedName": "Signature Date.0",
+      "label": "DATE",
+      "reason": "This date is signed by the DMV employee processing the cancellation, not by the estate's fiduciary; it is not estate data.",
+      "whatWouldFillIt": "No estate data path applies; filled by the DMV employee at time of processing."
+    },
+    {
+      "qualifiedName": "Date of Birth.0",
+      "label": "DATE OF BIRTH",
+      "reason": "decedent.dateOfBirth (1963-05-07) is correct and was bound with format:\"date\", but the round-1 render shows the resulting MM/DD/YYYY string clipped at the box boundary ('05/07/196', year truncated). The binding schema offers no shorter date format and no source kind can control field width or font size, so no combination of source/format can guarantee the full value renders inside this box.",
+      "whatWouldFillIt": "decedent.dateOfBirth via format:\"date\", once the calibrated field's box width or font auto-size is corrected in a recalibration pass so the full MM/DD/YYYY string fits without clipping."
+    },
+    {
+      "qualifiedName": "Cancel/Susp.0",
+      "label": "Reason for the cancellation or surrender:",
+      "reason": "formDL142.reasonForCancellation already contains the full narrative with the complete date of death ('...Date of death 01/08/2026...'), but the round-1 render shows only roughly the first 49 characters before the box truncates the line, cutting the date down to '01/08'. No source kind or format option can shorten or re-flow the composed text to guarantee it fits inside the field's rendered width, so this is a field-geometry limit, not a binding defect.",
+      "whatWouldFillIt": "formDL142.reasonForCancellation, once the calibrated field is confirmed to render its full contents without truncation (a wider box, a multi-line field, or font auto-size enabled)."
+    }
+  ],
+  "exclusiveGroups": [
+    {
+      "label": "Cancellation type",
+      "rule": "exactlyOne",
+      "members": [
+        "Cancel-DL.0",
+        "Cancel-ID.0"
+      ],
+      "when": null
+    },
+    {
+      "label": "Location of license/ID card",
+      "rule": "exactlyOne",
+      "members": [
+        "Lost/Destroyed.0",
+        "Attached.0",
+        "Other.0"
+      ],
+      "when": null
+    },
+    {
+      "label": "License in minor's possession",
+      "rule": "atMostOne",
+      "members": [
+        "Yes-1.0",
+        "No-1.0"
+      ],
+      "when": null
+    },
+    {
+      "label": "Change in custody of minor",
+      "rule": "atMostOne",
+      "members": [
+        "Yes-2.0",
+        "No-2.0"
+      ],
+      "when": null
+    },
+    {
+      "label": "Basis for signing on behalf of minor",
+      "rule": "atMostOne",
+      "members": [
+        "Signed minor app for lic.0",
+        "Did not sign app-gav written consent.0",
+        "Did not sign app-now custody.0"
+      ],
+      "when": null
+    }
+  ]
+}

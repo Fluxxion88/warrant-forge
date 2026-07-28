@@ -1,0 +1,803 @@
+{
+ "form": "irs-8821",
+ "sourceFile": "Form 8821 Jan 2021.pdf",
+ "pages": 1,
+ "pageSizes": [
+  {
+   "page": 1,
+   "width": 611.98,
+   "height": 791.97
+  }
+ ],
+ "widgets": [
+  {
+   "name": "topmostSubform[0].Page1[0].Pg1Header[0].f1_1[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    521.6,
+    732.0,
+    576.0,
+    741.0
+   ],
+   "tip": "Received by: ",
+   "states": null,
+   "left": "▶ Go to www.irs.gov/Form8821 for instructions and the latest information. Received by:",
+   "right": "",
+   "above": "OMB No. 1545-1165 For IRS Use Only",
+   "below": "Name"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Pg1Header[0].f1_2[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    506.1,
+    723.0,
+    576.0,
+    732.0
+   ],
+   "tip": "Name ",
+   "states": null,
+   "left": "Don’t sign this form unless all applicable lines have been completed. Name",
+   "right": "",
+   "above": "OMB No. 1545-1165 For IRS Use Only Received by:",
+   "below": "Telephone"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Pg1Header[0].f1_3[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    515.8,
+    714.0,
+    576.0,
+    723.0
+   ],
+   "tip": "Telephone",
+   "states": null,
+   "left": "Don’t use Form 8821 to request copies of your tax returns Telephone",
+   "right": "",
+   "above": "For IRS Use Only Received by: Name",
+   "below": "Function"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Pg1Header[0].f1_4[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    512.6,
+    705.0,
+    576.0,
+    714.0
+   ],
+   "tip": "Function",
+   "states": null,
+   "left": "the Treasury or to authorize someone to represent you. See instructions. Function",
+   "right": "",
+   "above": "Received by: Name Telephone",
+   "below": "Date"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Pg1Header[0].f1_5[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    503.6,
+    696.0,
+    576.0,
+    705.0
+   ],
+   "tip": "Date",
+   "states": null,
+   "left": "Revenue Service or to authorize someone to represent you. See instructions. Date",
+   "right": "",
+   "above": "Name Telephone Function",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_6[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    636.0,
+    344.9,
+    672.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "Taxpayer Daytime telephone identification number number(s) Plan number (if applicable)",
+   "above": "Taxpayer information. Taxpayer must sign and date this form on line 6.",
+   "below": "two designees, attach a list to this form."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_7[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    345.6,
+    660.0,
+    576.0,
+    672.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "form on line 6. Taxpayer identification number(s)",
+   "below": "Daytime telephone number Plan number (if applicable)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_8[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    345.6,
+    636.0,
+    460.8,
+    648.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Daytime telephone number Plan number",
+   "below": "form. Check here if a list of additional"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_9[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    460.8,
+    636.0,
+    576.0,
+    648.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "telephone number Plan number (if applicable)",
+   "below": "Check here if a list of additional"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_1[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    173.8,
+    614.5,
+    181.8,
+    622.5
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "designees is attached ▶",
+   "right": "",
+   "above": "you wish to name more than",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_11[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    358.8,
+    600.0,
+    576.0,
+    612.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Name and address CAF No.",
+   "right": "",
+   "above": "a list to this form. Check here if a list of additional",
+   "below": "PTIN"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_10[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    564.0,
+    316.1,
+    600.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "CAF PTIN Telephone Fax Check No. No. if new: No. Address Telephone",
+   "above": "designees is attached ▶",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_12[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    343.8,
+    588.0,
+    576.0,
+    600.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "PTIN",
+   "right": "",
+   "above": "CAF No.",
+   "below": "Telephone No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_13[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    384.0,
+    576.0,
+    576.0,
+    588.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Telephone No.",
+   "right": "",
+   "above": "No.",
+   "below": "No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_14[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    355.2,
+    564.0,
+    576.0,
+    576.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Fax No.",
+   "right": "",
+   "above": "PTIN Telephone No.",
+   "below": "Check if new: Address Telephone No. Fax No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_2[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    301.0,
+    554.0,
+    309.0,
+    562.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "Check if to be sent copies of notices and communications",
+   "right": "Check if new: Address Telephone No. Fax No.",
+   "above": "Telephone Fax No.",
+   "below": "CAF No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_3[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    418.8,
+    554.0,
+    426.8,
+    562.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "to be sent copies of notices and communications Check if new: Address",
+   "right": "Telephone No. Fax No.",
+   "above": "No.",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_4[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    505.2,
+    554.0,
+    513.2,
+    562.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "sent copies of notices and communications Check if new: Address Telephone No.",
+   "right": "Fax No.",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_5[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    564.0,
+    554.0,
+    572.0,
+    562.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "of notices and communications Check if new: Address Telephone No. Fax No.",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_16[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    358.8,
+    540.0,
+    576.0,
+    552.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Name and address CAF No.",
+   "right": "",
+   "above": "Fax No. Check if new: Address Telephone No. Fax No.",
+   "below": "PTIN"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_15[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    504.0,
+    316.1,
+    540.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "CAF PTIN Telephone Fax Check No. No. if new: No. Address Telephone",
+   "above": "Check if to be sent copies of notices and communications Check if",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_17[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    343.8,
+    528.0,
+    576.0,
+    540.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "PTIN",
+   "right": "",
+   "above": "Check if new: Address Telephone No. Fax No. CAF No.",
+   "below": "Telephone No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_18[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    384.0,
+    516.0,
+    576.0,
+    528.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Telephone No.",
+   "right": "",
+   "above": "No.",
+   "below": "No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_19[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    355.2,
+    504.0,
+    576.0,
+    516.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "Fax No.",
+   "right": "",
+   "above": "PTIN Telephone No.",
+   "below": "Check if new: Address Telephone No. Fax No."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_6[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    301.0,
+    494.0,
+    309.0,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "Check if to be sent copies of notices and communications",
+   "right": "Check if new: Address Telephone No. Fax No.",
+   "above": "Telephone Fax No.",
+   "below": "inspect and/or receive confidential"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_7[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    418.8,
+    494.0,
+    426.8,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "to be sent copies of notices and communications Check if new: Address",
+   "right": "Telephone No. Fax No.",
+   "above": "No.",
+   "below": "confidential tax information for"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_8[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    505.2,
+    494.0,
+    513.2,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "sent copies of notices and communications Check if new: Address Telephone No.",
+   "right": "Fax No.",
+   "above": "",
+   "below": "for the type of tax, forms,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_9[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    564.0,
+    494.0,
+    572.0,
+    502.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "of notices and communications Check if new: Address Telephone No. Fax No.",
+   "right": "",
+   "above": "",
+   "below": "tax, forms,"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_10[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    57.6,
+    452.0,
+    65.6,
+    460.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "",
+   "right": "By checking here, I authorize access to my IRS records via an",
+   "above": "3 Tax information. periods, and",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_20[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    384.0,
+    186.4,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Employment, Payroll, Excise, Estate, Gift, (1040, Civil Penalty, Sec. 4980H Payments, etc.)",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_21[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    187.2,
+    384.0,
+    316.8,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Estate, Gift, (1040, 941, 720, etc.) Payments, etc.)",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_22[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    317.8,
+    384.0,
+    445.6,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "etc.)",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow1[0].f1_23[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    447.4,
+    384.0,
+    576.0,
+    396.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_24[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    360.0,
+    186.4,
+    372.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_25[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    187.2,
+    360.0,
+    316.8,
+    372.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_26[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    317.8,
+    360.0,
+    445.6,
+    372.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow2[0].f1_27[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    447.4,
+    360.0,
+    576.0,
+    372.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_28[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    36.0,
+    336.0,
+    186.4,
+    348.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": "4 Specific use not recorded on the Centralized"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_29[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    187.2,
+    336.0,
+    316.8,
+    348.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": "recorded on the Centralized Authorization File (CAF)."
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_30[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    317.8,
+    336.0,
+    445.6,
+    348.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": "Authorization File (CAF). If the tax information authorization"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].Table_Line3[0].BodyRow3[0].f1_31[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    447.4,
+    336.0,
+    576.0,
+    348.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "",
+   "below": "tax information authorization is for a"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_11[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    563.6,
+    314.0,
+    571.6,
+    322.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": "this box, skip line 5 . . . . . . ▶",
+   "right": "",
+   "above": "is for a",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].c1_12[0]",
+   "page": 1,
+   "type": "/Btn",
+   "rect": [
+    563.6,
+    266.0,
+    571.6,
+    274.0
+   ],
+   "tip": null,
+   "states": [
+    "/1"
+   ],
+   "left": ". . . . . . . . . . . ▶",
+   "right": "",
+   "above": "line 4 box the line 5",
+   "below": ""
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_32[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    57.6,
+    96.0,
+    432.0,
+    120.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Signature Date",
+   "below": "Print Name Title (if applicable)"
+  },
+  {
+   "name": "topmostSubform[0].Page1[0].f1_33[0]",
+   "page": 1,
+   "type": "/Tx",
+   "rect": [
+    432.0,
+    96.0,
+    554.4,
+    120.0
+   ],
+   "tip": null,
+   "states": null,
+   "left": "",
+   "right": "",
+   "above": "Date",
+   "below": "Title (if applicable)"
+  }
+ ]
+}

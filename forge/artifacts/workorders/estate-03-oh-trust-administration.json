@@ -1,0 +1,45 @@
+{
+  "estateId": "estate-03-oh-trust-administration",
+  "estatePath": "inputs/estates/estate-03-oh-trust-administration.json",
+  "jurisdiction": {
+    "state": "OH",
+    "county": "Cuyahoga"
+  },
+  "route": "TRUST_ADMINISTRATION",
+  "generatedAt": "2026-07-28T18:27:06Z",
+  "generatedBy": "warrant",
+  "forms": [
+    {
+      "formId": "irs-ss4",
+      "applicable": true,
+      "reason": null,
+      "priority": 1,
+      "blastRadius": "medium",
+      "reversibility": "irreversible"
+    },
+    {
+      "formId": "irs-f56",
+      "applicable": true,
+      "reason": null,
+      "priority": 2,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "irs-f8821",
+      "applicable": true,
+      "reason": null,
+      "priority": 3,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "ca-dmv-dl142",
+      "applicable": false,
+      "reason": "DL 142 does not apply — the licence was issued by another state. Surrender it through that state's motor vehicle agency instead. (Cal. Veh. Code § 14100; DMV form DL 142 (Rev. 7/93)) Estate record: The decedent held an Ohio driver licence. DL 142 is a California Department of Motor Vehicles form and cannot be used to cancel an out-of-state licence; the Ohio BMV equivalent is required. The licence data is carried here so the sibling state form can be driven from the same record.",
+      "priority": null,
+      "blastRadius": null,
+      "reversibility": null
+    }
+  ]
+}

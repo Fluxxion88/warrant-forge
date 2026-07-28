@@ -1,0 +1,45 @@
+{
+  "estateId": "estate-02-ca-intestate-independent-admin",
+  "estatePath": "inputs/estates/estate-02-ca-intestate-independent-admin.json",
+  "jurisdiction": {
+    "state": "CA",
+    "county": "Los Angeles"
+  },
+  "route": "INDEPENDENT_ADMINISTRATION",
+  "generatedAt": "2026-07-28T18:27:06Z",
+  "generatedBy": "warrant",
+  "forms": [
+    {
+      "formId": "irs-ss4",
+      "applicable": true,
+      "reason": null,
+      "priority": 1,
+      "blastRadius": "medium",
+      "reversibility": "irreversible"
+    },
+    {
+      "formId": "irs-f56",
+      "applicable": true,
+      "reason": null,
+      "priority": 2,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "irs-f8821",
+      "applicable": true,
+      "reason": null,
+      "priority": 3,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "ca-dmv-dl142",
+      "applicable": true,
+      "reason": null,
+      "priority": 4,
+      "blastRadius": "low",
+      "reversibility": "reversible"
+    }
+  ]
+}

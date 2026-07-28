@@ -1,0 +1,45 @@
+{
+  "estateId": "estate-01-nj-ancillary-probate",
+  "estatePath": "inputs/estates/estate-01-nj-ancillary-probate.json",
+  "jurisdiction": {
+    "state": "NJ",
+    "county": "Mercer"
+  },
+  "route": "ANCILLARY_PROBATE",
+  "generatedAt": "2026-07-28T18:27:06Z",
+  "generatedBy": "warrant",
+  "forms": [
+    {
+      "formId": "irs-ss4",
+      "applicable": false,
+      "reason": "SS-4 not required — the estate already holds an EIN. (IRS Form SS-4 instructions (Rev. December 2025), 'Do not apply for a new EIN')",
+      "priority": null,
+      "blastRadius": null,
+      "reversibility": null
+    },
+    {
+      "formId": "irs-f56",
+      "applicable": true,
+      "reason": null,
+      "priority": 2,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "irs-f8821",
+      "applicable": true,
+      "reason": null,
+      "priority": 3,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "ca-dmv-dl142",
+      "applicable": false,
+      "reason": "Undecided — Warrant holds no verified fact for decedent.licence_number, decedent.licence_state, so applicability is unknown rather than false. Withheld pending that evidence. Estate record: The decedent's only recorded government identification is a United States passport. No California driver licence or identification card is on file, and the decedent resided in New Jersey. DL 142 is a California-only form; the passport is surrendered to the U.S. Department of State instead.",
+      "priority": null,
+      "blastRadius": null,
+      "reversibility": null
+    }
+  ]
+}

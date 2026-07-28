@@ -1,0 +1,51 @@
+{
+  "$comment": [
+    "Human decisions that override discovered field mappings.",
+    "",
+    "Discovery output is a generated artefact and must never be hand-edited: the",
+    "next run overwrites it and the correction disappears without trace. This",
+    "file is the override layer. Each entry names the field, the corrected",
+    "target, the printed label that justifies it, and why the discovered mapping",
+    "was wrong — and each is re-verified against the page like any other mapping,",
+    "so an adjudication citing a label that is not printed is refused too.",
+    "",
+    "Entries here should be rare and each should teach the prompt something. If",
+    "the same class of error recurs, fix the instruction rather than the output."
+  ],
+  "adjudications": [
+    {
+      "form": "irs-56",
+      "field": "topmostSubform[0].Page2[0].f2_15[0]",
+      "target": "form56.signature.title",
+      "labelQuote": "Title, if applicable",
+      "wasTarget": "form56.signature.signerName",
+      "decidedBy": "human review of the rendered PDF",
+      "decidedAt": "2026-07-28",
+      "reason": "The only same-line text beside this box is 'Here', from the printed words 'Please Sign Here', which identifies nothing. Two independent discovery runs disagreed: one read it as the signer's name, the other as the title. Rendering a filled copy settled it — the box sits directly above the caption 'Title, if applicable', and the generated form was declaring the fiduciary's title to be her own name. The caption below the line is the real label."
+    },
+    {
+      "form": "irs-56",
+      "field": "topmostSubform[0].Page1[0].c1_2[0]",
+      "target": "authority.assetsUnderCourtControl",
+      "labelQuote": "assets in the control",
+      "condition": "authority.assetsUnderCourtControl == true",
+      "onState": "/1",
+      "wasTarget": "authority.proceeding.isCourtProceeding",
+      "decidedBy": "human review of the rendered PDF",
+      "decidedAt": "2026-07-28",
+      "reason": "Line 2c asks whether the taxpayer's ASSETS are in the control or custody of the court. Discovery wired it to isCourtProceeding, which records whether a court case exists at all — a different question with a different answer. Every sample estate has a court proceeding, so the Yes box was ticked on every generated form, asserting to the IRS that the court holds the estate's assets. assetsUnderCourtControl is null in all five records, so the correct behaviour is to leave both boxes blank and let a human answer. This mismapping is invisible to label verification: the cited label is genuinely printed there and the condition parses. Only reading the question caught it."
+    },
+    {
+      "form": "irs-56",
+      "field": "topmostSubform[0].Page1[0].c1_2[1]",
+      "target": "authority.assetsUnderCourtControl",
+      "labelQuote": "assets in the control or",
+      "condition": "authority.assetsUnderCourtControl == false",
+      "onState": "/2",
+      "wasTarget": "authority.proceeding.isCourtProceeding",
+      "decidedBy": "human review of the rendered PDF",
+      "decidedAt": "2026-07-28",
+      "reason": "The 'No' half of line 2c. Same mismapping as the 'Yes' box."
+    }
+  ]
+}

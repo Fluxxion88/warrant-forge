@@ -1,0 +1,176 @@
+{
+ "form": "ca-dl142",
+ "sourceFile": "DL 142 R7 93.pdf",
+ "discoveredBy": "claude-sonnet-5",
+ "discoveredAt": "2026-07-28T13:51:18.095Z",
+ "entries": [
+  {
+   "field": "Name person DL/ID to be cancel",
+   "target": "formDL142.documentHolderName",
+   "labelQuote": "NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.line1",
+   "labelQuote": "enter address",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "City person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.city",
+   "labelQuote": "city",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Zip person DL/ID to be cancel.0",
+   "target": "formDL142.documentHolderAddress.zip",
+   "labelQuote": "zip code",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "state.0",
+   "target": "formDL142.documentHolderAddress.state",
+   "labelQuote": "state",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Date of Birth.0",
+   "target": "formDL142.dateOfBirth",
+   "labelQuote": "type in date of birth",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lic/ID no to be cancel.0",
+   "target": "formDL142.documentNumber",
+   "labelQuote": "license or id card number to be cancelled",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Lost/Destroyed.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "lost/destroyed",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == LostDestroyed"
+  },
+  {
+   "field": "Attached.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "attached",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Attached"
+  },
+  {
+   "field": "Other.0",
+   "target": "formDL142.locationOfLicense",
+   "labelQuote": "other (explain on reverse)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.locationOfLicense == Other"
+  },
+  {
+   "field": "Cancel-DL.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "Driver license (Dl) or",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == DL"
+  },
+  {
+   "field": "Cancel-ID.0",
+   "target": "formDL142.documentType",
+   "labelQuote": "identification card (iD)",
+   "page": 1,
+   "type": "/Btn",
+   "onState": "/Yes",
+   "condition": "formDL142.documentType == ID"
+  },
+  {
+   "field": "Cancel/Susp.0",
+   "target": "formDL142.reasonForCancellation",
+   "labelQuote": "reason for the cancellation or surrender:",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Print Name.0",
+   "target": "formDL142.completedBy.printedName",
+   "labelQuote": "Print your name.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Text1",
+   "target": "formDL142.completedBy.signatureDate",
+   "labelQuote": "Enter date of signature.",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Address.0",
+   "target": "formDL142.completedBy.address.line1",
+   "labelQuote": "print address of person completing the form",
+   "page": 1,
+   "type": "/Tx"
+  },
+  {
+   "field": "Name person DL/ID to be cancel",
+   "target": "formDL142.documentHolderName",
+   "labelQuote": "NAME OF PERSON AS SHOWN ON THE LICENSE OR IDENTIFICATION CARD TO BE CANCELLED",
+   "page": 1,
+   "type": "/Tx"
+  }
+ ],
+ "unmapped": [
+  {
+   "field": "Yes-1.0",
+   "note": "no record path exists for minor-possession status; requires human judgement"
+  },
+  {
+   "field": "No-1.0",
+   "note": "no record path exists for minor-possession status"
+  },
+  {
+   "field": "Yes-2.0",
+   "note": "no record path exists for minor-custody-change status"
+  },
+  {
+   "field": "No-2.0",
+   "note": "no record path exists for minor-custody-change status"
+  },
+  {
+   "field": "Signed minor app for lic.0",
+   "note": "no record path exists for this certification choice"
+  },
+  {
+   "field": "Did not sign app-gav written consent.0",
+   "note": "no record path exists for this certification choice"
+  },
+  {
+   "field": "Did not sign app-now custody.0",
+   "note": "no record path exists for this certification choice"
+  },
+  {
+   "field": "Signature Date.0",
+   "note": "no record path exists for DMV employee's signature date"
+  },
+  {
+   "field": "Office No.0",
+   "note": "no record path exists for DMV employee's office number"
+  }
+ ],
+ "rejected": []
+}

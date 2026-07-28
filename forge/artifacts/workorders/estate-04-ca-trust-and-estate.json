@@ -1,0 +1,45 @@
+{
+  "estateId": "estate-04-ca-trust-and-estate",
+  "estatePath": "inputs/estates/estate-04-ca-trust-and-estate.json",
+  "jurisdiction": {
+    "state": "CA",
+    "county": "Los Angeles"
+  },
+  "route": "TRUST_ADMINISTRATION",
+  "generatedAt": "2026-07-28T18:27:06Z",
+  "generatedBy": "warrant",
+  "forms": [
+    {
+      "formId": "irs-ss4",
+      "applicable": false,
+      "reason": "SS-4 not required — the estate already holds an EIN. (IRS Form SS-4 instructions (Rev. December 2025), 'Do not apply for a new EIN')",
+      "priority": null,
+      "blastRadius": null,
+      "reversibility": null
+    },
+    {
+      "formId": "irs-f56",
+      "applicable": true,
+      "reason": null,
+      "priority": 2,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "irs-f8821",
+      "applicable": true,
+      "reason": null,
+      "priority": 3,
+      "blastRadius": "medium",
+      "reversibility": "reversible"
+    },
+    {
+      "formId": "ca-dmv-dl142",
+      "applicable": true,
+      "reason": null,
+      "priority": 4,
+      "blastRadius": "low",
+      "reversibility": "reversible"
+    }
+  ]
+}
